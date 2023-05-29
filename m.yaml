@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：
 # 客户端：Clash
-# 创建时间：2023/5/29 19:17:31
+# 创建时间：2023/5/29 19:39:55
 # 使用模版：V2RaySE 默认模版
 # 节点数量：127
 ####################################
@@ -170,44 +170,45 @@ proxies:
   - {name: "SG_分享日记_5908E", type: trojan, server: azsg2-tg-data.amazonwebservicess.com, port: 443, udp: true, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazonwebservicess.com, skip-cert-verify: true, network: tcp, connectspeed: 609}
   - {name: "🇺🇸_US_美国_;kkzui5_2216E8", type: vmess, server: 192.74.224.27, port: 54027, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 656}
   - {name: "🇺🇸_US_美国_;kkzui_28CFBC", type: trojan, server: 163.123.192.153, port: 443, udp: true, password: 194e456a-68d2-4f05-b554-c7282d32abae, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, network: tcp, connectspeed: 672}
-  - {name: " 🇫🇷 France 033812", type: vmess, server: cdn.kunlun-auto.com, port: 14014, udp: true, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 704}
-  - {name: "🇺🇸US美国 伟科_547BCD", type: vmess, server: 107.148.5.78, port: 50002, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, network: tcp, connectspeed: 704}
+  - {name: " 🇫🇷 France 033812", type: vmess, server: cdn.kunlun-auto.com, port: 14014, udp: true, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 719}
   - {name: "LU卢森堡 伟科_19E1F", type: vmess, server: gz.oracleyyds.com, port: 18353, cipher: auto, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, network: tcp, connectspeed: 735}
   - {name: " 🇨🇳 China 05F0F7", type: vmess, server: cdn.kunlun-auto.com, port: 14022, udp: true, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 750}
   - {name: "HK_FreeNode.me_1010E2A", type: vmess, server: 43.154.122.126, port: 52891, cipher: auto, uuid: 82adc998-88ab-4c87-8b86-5bc39e80f5b2, alterId: 64, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk1/getData, headers: {Host: hk1.nb123.info}}, connectspeed: 750}
-  - {name: "US_FreeNode.me_926ECE", type: vmess, server: 107.148.5.78, port: 50002, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: false, connectspeed: 766}
+  - {name: "US_FreeNode.me_926ECE", type: vmess, server: 107.148.5.78, port: 50002, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: false, connectspeed: 750}
   - {name: "🇯🇵JP日本 伟科_42D0D", type: ss, server: 01-2.qqingca.cc, port: 20398, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf, cipher: chacha20-ietf-poly1305, connectspeed: 797}
   - {name: " 🇺🇸 United States 50E9C8", type: vmess, server: cdn.kunlun-auto.com, port: 14010, udp: true, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 813}
   - {name: "YouTube面具人_96583", type: trojan, server: jp13.microsoft-orgwly.vip, port: 18327, udp: true, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 828}
+  - {name: "🇺🇸US美国 伟科_547BCD", type: vmess, server: 107.148.5.78, port: 50002, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, network: tcp, connectspeed: 843}
   - {name: "🇸🇬SG新加坡 伟科_48509", type: trojan, server: sg1.microsoft-orgwly.vip, port: 443, udp: true, password: acfeac7e-bf81-492d-85ef-869a83f5eba8, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 844}
+  - {name: "🇺🇸 _US_美国 44C73", type: vmess, server: 142.4.103.199, port: 45252, client-fingerprint: chrome, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, tfo: false, skip-cert-verify: false, connectspeed: 875}
   - {name: "YouTube面具人_254D85", type: ss, server: 65.49.208.126, port: 56165, password: tdRft29eoWtbELzV, cipher: aes-256-gcm, connectspeed: 875}
-  - {name: "🇺🇸 _US_美国 44C73", type: vmess, server: 142.4.103.199, port: 45252, client-fingerprint: chrome, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, tfo: false, skip-cert-verify: false, connectspeed: 890}
+  - {name: "US_FreeNode.me_20B88F", type: vmess, server: 142.0.133.53, port: 50044, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: false, connectspeed: 890}
   - {name: "YouTube面具人_1012ED", type: trojan, server: hk12.microsoft-orgwly.vip, port: 23516, udp: true, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 890}
   - {name: "YouTube面具人_24C8AE", type: ss, server: 65.49.198.42, port: 6805, password: pCEdFts6TF6MgHCD, cipher: aes-256-gcm, connectspeed: 891}
   - {name: "🇰🇷KR韩国 伟科_470C7", type: vmess, server: cdn.kunlun-auto.com, port: 14005, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, network: tcp, connectspeed: 906}
   - {name: "🇭🇰HK香港 伟科_7C8B7", type: trojan, server: hk11.microsoft-orgwly.vip, port: 80, udp: true, password: 46c4706d-3531-47ba-98c8-af75e5ba574e, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, connectspeed: 922}
   - {name: "YouTube面具人_865D6", type: ss, server: 65.49.223.111, port: 6805, password: pCEdFts6TF6MgHCD, cipher: aes-256-gcm, connectspeed: 922}
   - {name: "🇭🇰_HK_香港_;kkzui_11E9E7", type: trojan, server: hk5.microsoft-orgwly.vip, port: 443, udp: true, password: 37353bae-4cbf-447a-bf5a-d6cb7d9b6d5c, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 938}
-  - {name: "US_FreeNode.me_20B88F", type: vmess, server: 142.0.133.53, port: 50044, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: false, connectspeed: 953}
   - {name: "🇭🇰HK香港 伟科_7A93C", type: trojan, server: hk11.microsoft-orgwly.vip, port: 80, udp: true, password: 75df319e-8f4c-4ffa-aca8-a72aa20163c9, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 953}
   - {name: "YouTube面具人_5102A", type: trojan, server: sg5.microsoft-orgwly.vip, port: 11038, udp: true, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 969}
   - {name: "YouTube面具人_65C8B", type: trojan, server: vn2.microsoft-orgwly.vip, port: 443, udp: true, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 969}
   - {name: "YouTube面具人_2BFB9", type: vmess, server: 15038.kuaiyincdn.uk, port: 15038, cipher: auto, uuid: b6243a0c-4d8b-3f30-8598-a73d343a3787, alterId: 0, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 984}
   - {name: "🇭🇰HK香港 伟科_86646", type: trojan, server: hk8.microsoft-orgwly.vip, port: 80, udp: true, password: 46c4706d-3531-47ba-98c8-af75e5ba574e, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, connectspeed: 1000}
-  - {name: "NL_分享日记_14D53", type: vmess, server: 154.85.1.86, port: 49506, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 1031}
+  - {name: "NL_分享日记_14D53", type: vmess, server: 154.85.1.86, port: 49506, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 1016}
   - {name: "🇹🇼TW台湾 伟科_562C6", type: trojan, server: tw5.microsoft-orgwly.vip, port: 443, udp: true, password: 7b9785bd-d916-4d1c-bf92-aa153bc099ba, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 1032}
-  - {name: "🇭🇰HK香港 伟科_64E0A", type: trojan, server: hk3.microsoft-orgwly.vip, port: 443, udp: true, password: 7cadf272-e610-4f72-8bfd-ce88554af2c0, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, connectspeed: 1063}
   - {name: "🇺🇸US美国 伟科_17CD09", type: vmess, server: 129.146.247.135, port: 14038, cipher: auto, uuid: 7949f11e-b1d8-4217-b259-9bc2d2af2c25, alterId: 0, network: tcp, connectspeed: 1078}
   - {name: "YouTube面具人_13FE1", type: trojan, server: hk5.microsoft-orgwly.vip, port: 443, udp: true, password: 60944cac-a362-4205-9694-3692cd96694b, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 1093}
-  - {name: "YouTube面具人_8DD69", type: vmess, server: 15017.kuaiyincdn.uk, port: 15017, cipher: auto, uuid: b6243a0c-4d8b-3f30-8598-a73d343a3787, alterId: 0, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 1125}
-  - {name: "YouTube面具人_11F304", type: trojan, server: g1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, udp: true, password: 48fe6e2d-b4ed-4c68-aa5b-f291f6c1b866, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true, network: tcp, connectspeed: 1156}
   - {name: "🇺🇸US美国 伟科_14B312", type: vmess, server: 137.175.35.129, port: 58007, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, network: tcp, connectspeed: 1187}
+  - {name: "YouTube面具人_11F304", type: trojan, server: g1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, udp: true, password: 48fe6e2d-b4ed-4c68-aa5b-f291f6c1b866, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true, network: tcp, connectspeed: 1203}
   - {name: "🇬🇧GB英国 伟科_4CBAF", type: trojan, server: ukjs.stablize.top, port: 443, udp: true, password: a8e47554-718a-4e66-be3c-7289b2a8ee31, skip-cert-verify: true, network: tcp, connectspeed: 1265}
   - {name: "YouTube面具人_49D74", type: trojan, server: tw5.microsoft-orgwly.vip, port: 443, udp: true, password: 60944cac-a362-4205-9694-3692cd96694b, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 1266}
+  - {name: "🇭🇰HK香港 伟科_64E0A", type: trojan, server: hk3.microsoft-orgwly.vip, port: 443, udp: true, password: 7cadf272-e610-4f72-8bfd-ce88554af2c0, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, connectspeed: 1282}
+  - {name: "TW_分享日记_29053", type: trojan, server: bgptw5.cnamazon.sbs, port: 443, udp: true, password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true, network: tcp, connectspeed: 1297}
   - {name: "🇺🇸US美国 伟科_48C932", type: vmess, server: cdn.kunlun-auto.com, port: 14010, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, network: tcp, connectspeed: 1390}
   - {name: "SW瑞士 伟科067D", type: vmess, server: 45.90.59.186, port: 10000, cipher: auto, uuid: 5566d550-f75a-11ed-bef8-d32ecef69111, alterId: 0, network: ws, ws-opts: {path: /vpnjantit}, connectspeed: 1391}
   - {name: "🇭🇰_HK_香港_3_38883D", type: trojan, server: awsjp2.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, network: tcp, connectspeed: 1391}
   - {name: "🇺🇸US美国 伟科_20F769", type: vmess, server: 23.224.11.147, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1684994761011, headers: {host: www.76432641.xyz}}, connectspeed: 1438}
+  - {name: "🇯🇵 Japan 2410EF", type: vmess, server: vjp2.0bad.com, port: 443, udp: true, cipher: auto, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}, connectspeed: 1453}
   - {name: "YouTube面具人_19A154", type: trojan, server: SG1.FP3KEMYH-CM4S-2HAK-2GB9-W3534UMY2SQ5.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 12008, udp: true, password: 5762349d-703b-4769-a2b1-c8478efe620b, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true, network: tcp, connectspeed: 1453}
   - {name: "🇺🇸US美国 伟科_276568", type: vmess, server: 23.225.33.173, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1685094923408, headers: {host: www.53638055.xyz}}, connectspeed: 1453}
   - {name: "🇺🇸US美国 伟科_101E88", type: vmess, server: 107.148.194.235, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1684907511842, headers: {host: www.13364896.xyz}}, connectspeed: 1468}
@@ -217,14 +218,14 @@ proxies:
   - {name: "🇺🇸US美国 伟科_188347", type: vmess, server: 198.2.204.252, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1684994761011, headers: {host: www.11141292.xyz}}, connectspeed: 1484}
   - {name: "🇺🇸US美国 伟科_19ACA8", type: vmess, server: 38.40.158.253, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1685094923408, headers: {host: www.72764147.xyz}}, connectspeed: 1485}
   - {name: "🇺🇸US美国 伟科_35631B", type: vmess, server: 74.217.179.166, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1684994761011, headers: {host: www.52033619.xyz}}, connectspeed: 1500}
-  - {name: "US_FreeNode.me_4772FF", type: vmess, server: www.gov.tw, port: 443, cipher: auto, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, connectspeed: 1515}
-  - {name: "YouTube面具人_12CC06", type: trojan, server: tw2.microsoft-orgwly.vip, port: 80, udp: true, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 1531}
   - {name: "@SSRSUB-V23-付费推荐suo.yt/ssrsub943F", type: vmess, server: 188.114.97.7, port: 443, cipher: auto, uuid: 9aa6b5ad-c0fc-47f4-a837-f72179d7b662, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Lsv4s7nS0ErewnEN, headers: {Host: channel2.unlimiteddev.tk}}, connectspeed: 1609}
+  - {name: "🇺🇸 _US_美国 154692", type: vmess, server: 142.4.97.77, port: 44942, client-fingerprint: chrome, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, tfo: false, skip-cert-verify: false, connectspeed: 1641}
   - {name: "🇺🇸US美国 伟科_12B0BC", type: ss, server: fuck7.lianpi.xyz, port: 37829, password: 1f3d67b4-6929-4598-90ca-84a841bf02e4, cipher: chacha20-ietf-poly1305, connectspeed: 1688}
   - {name: "JP_FreeNode.me_2418C40", type: vmess, server: 167.88.185.247, port: 43519, cipher: auto, uuid: f1b2ca69-a807-482e-a370-ce28d552c59b, alterId: 64, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /jp1/getData, headers: {Host: jp1.nb123.info}}, connectspeed: 1734}
   - {name: "🇺🇸US美国 伟科_127B41", type: vmess, server: 108.186.116.179, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1684994761011, headers: {host: www.42576874.xyz}}, connectspeed: 1750}
   - {name: "🇹🇼TW台湾 伟科_1192DD", type: vmess, server: cdn.jike.cyou, port: 50037, cipher: auto, uuid: 5963625c-4f93-4c75-b7d6-32ac2178de5b, alterId: 0, network: tcp, connectspeed: 1766}
-  - {name: "TW_分享日记_29053", type: trojan, server: bgptw5.cnamazon.sbs, port: 443, udp: true, password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true, network: tcp, connectspeed: 1891}
+  - {name: "US_FreeNode.me_4772FF", type: vmess, server: www.gov.tw, port: 443, cipher: auto, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, connectspeed: 1812}
+  - {name: " 🇺🇸 United States 0233CA", type: vmess, server: iepl2.airtcp.vip, port: 20001, udp: true, cipher: auto, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, tls: false, skip-cert-verify: true, connectspeed: 1844}
   - {name: "🇭🇰HK香港 伟科95F1", type: ssr, server: 8.218.67.54, port: 46950, password: 2345345f34, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
   - {name: "🇭🇰HK香港 伟科_62C40", type: ssr, server: oracle.accessconnect.cc, port: 1129, password: di15PV, cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, connectspeed: 2000}
   - {name: "🇭🇰HK香港 伟科_72322", type: ssr, server: oracle.accessconnect.cc, port: 7008, password: di15PV, cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203677:APfz9b, obfs-param: c08ed203677.www.gov.hk, connectspeed: 2000}
@@ -268,28 +269,27 @@ proxies:
   - {name: "🇷🇺_RU_俄罗斯联邦_253EB0", type: ssr, server: hk1.vfun.icu, port: 443, password: vyunme, cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, connectspeed: 2000}
   - {name: "🇳🇱NL荷兰 伟科_28D2D", type: vmess, server: 156.249.18.16, port: 443, cipher: auto, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1684907511842, headers: {host: www.36318181.xyz}}, connectspeed: 2063}
   - {name: "🇰🇷KR韩国 伟科0E31", type: trojan, server: kr.stablize.top, port: 443, udp: true, password: a8e47554-718a-4e66-be3c-7289b2a8ee31, skip-cert-verify: true, network: tcp, connectspeed: 2140}
-  - {name: "🇺🇸US美国 伟科_23302C", type: vmess, server: 142.4.97.77, port: 44942, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, network: tcp, connectspeed: 2171}
-  - {name: "🇺🇸 _US_美国 154692", type: vmess, server: 142.4.97.77, port: 44942, client-fingerprint: chrome, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, tfo: false, skip-cert-verify: false, connectspeed: 2203}
   - {name: "YouTube面具人_2130C5", type: trojan, server: W2.FP3KEMYH-CM4S-2HAK-2GB9-W3534UMY2SQ5.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 443, udp: true, password: 5762349d-703b-4769-a2b1-c8478efe620b, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true, network: tcp, connectspeed: 2219}
-  - {name: " 🇺🇸 United States 0233CA", type: vmess, server: iepl2.airtcp.vip, port: 20001, udp: true, cipher: auto, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, tls: false, skip-cert-verify: true, connectspeed: 2235}
   - {name: "🇺🇸 _US_美国 156C0A", type: vmess, server: 108.186.5.12, port: 59322, client-fingerprint: chrome, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, tfo: false, skip-cert-verify: false, connectspeed: 2281}
   - {name: "🇺🇸US美国 伟科_32F99B", type: vmess, server: klax.keeeeeeir.me, port: 443, cipher: auto, uuid: B3C53EA0-D40F-4937-AA0D-1AAF63484E7C, alterId: 0, tls: true, network: ws, ws-opts: {path: /login, headers: {host: klax.keeeeeeir.me}}, connectspeed: 2282}
-  - {name: "🇸🇬 Singapore 199889", type: vmess, server: cloudflare.piaole.me, port: 443, udp: true, cipher: auto, uuid: 8a7d1fe3-bc74-414f-a987-3da8a4a9ab07, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, connectspeed: 2312}
   - {name: "YouTube面具人_167355", type: trojan, server: US3.FP3KEMYH-CM4S-2HAK-2GB9-W3534UMY2SQ5.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 12008, udp: true, password: 5762349d-703b-4769-a2b1-c8478efe620b, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true, network: tcp, connectspeed: 2359}
-  - {name: "🇺🇸 US_分享日记_33DCB0", type: vmess, server: 137.175.1.7, port: 53403, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 2406}
+  - {name: "🇺🇸 US_分享日记_453B42", type: vmess, server: 142.0.133.53, port: 50044, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 2375}
   - {name: "🇺🇸US美国 伟科_29DD32", type: vmess, server: 142.4.126.40, port: 443, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: true, network: ws, ws-opts: {path: /path/1684994761011, headers: {host: www.29135019.xyz}}, connectspeed: 2406}
+  - {name: "🇺🇸 US_分享日记_33DCB0", type: vmess, server: 137.175.1.7, port: 53403, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 2422}
   - {name: "🇹🇼TW台湾 伟科_27072", type: trojan, server: bgptw3.cnamazon.sbs, port: 443, udp: true, password: b31eb45e-7f95-465f-8229-716058f6dc49, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true, connectspeed: 2437}
-  - {name: "US_FreeNode.me_1473B56", type: vmess, server: mg.txy.a.node1.jijio.stream, port: 38999, cipher: auto, uuid: adc570f1-d591-4a5a-93f0-0013bba3f116, alterId: 0, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wesad, headers: {Host: mg.txy.a.node1.jijio.stream}}, connectspeed: 2484}
+  - {name: "🇺🇸 US_分享日记_22ED5A", type: vmess, server: 192.74.228.179, port: 42857, cipher: auto, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 2453}
   - {name: "🇺🇸_US_美国_6_9BD08", type: vmess, server: 104.27.62.243, port: 443, cipher: auto, uuid: 49555a95-dc36-44dd-b613-98dc14ac6295, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wss48622, headers: {host: freeservice.blanku.me}}, connectspeed: 2875}
   - {name: "🇺🇸 United States 667185", type: vmess, server: x.leonard.eu.org, port: 443, udp: true, cipher: auto, uuid: 1441af41-5cee-497e-a47c-c26af169f9ff, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: x.leonard.eu.org}}, connectspeed: 4234}
-  - {name: "🇨🇳_CN_中国->🇯🇵_JP_日本_kkzui5E028", type: vmess, server: 8.v2-ray.cyou, port: 23608, cipher: auto, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 5156}
-  - {name: "🇺🇸 US_分享日记_22ED5A", type: vmess, server: 192.74.228.179, port: 42857, cipher: auto, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 5484}
-  - {name: "🇺🇸 US_分享日记_453B42", type: vmess, server: 142.0.133.53, port: 50044, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 5656}
+  - {name: "🇸🇬 Singapore 199889", type: vmess, server: cloudflare.piaole.me, port: 443, udp: true, cipher: auto, uuid: 8a7d1fe3-bc74-414f-a987-3da8a4a9ab07, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, connectspeed: 5094}
+  - {name: "🇺🇸US美国 伟科_23302C", type: vmess, server: 142.4.97.77, port: 44942, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, network: tcp, connectspeed: 5609}
+  - {name: "🇨🇳_CN_中国->🇯🇵_JP_日本_kkzui5E028", type: vmess, server: 8.v2-ray.cyou, port: 23608, cipher: auto, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 5875}
+  - {name: "US_FreeNode.me_1473B56", type: vmess, server: mg.txy.a.node1.jijio.stream, port: 38999, cipher: auto, uuid: adc570f1-d591-4a5a-93f0-0013bba3f116, alterId: 0, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wesad, headers: {Host: mg.txy.a.node1.jijio.stream}}, connectspeed: 6187}
   - {name: "SG_分享日记_9136D", type: trojan, server: bgptw3.cnamazon.sbs, port: 443, udp: true, password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true, network: tcp, connectspeed: 6984}
-  - {name: "🇺🇸 US_分享日记_3248C1", type: vmess, server: ahsorathiyaa.fly.dev, port: 443, cipher: auto, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {host: ahsorathiyaa.fly.dev}}, connectspeed: 8796}
+  - {name: "🇺🇲 美国79 2FFEE", type: vmess, server: channel2.unlimiteddev.tk, port: 443, cipher: auto, uuid: 9aa6b5ad-c0fc-47f4-a837-f72179d7b662, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Lsv4s7nS0ErewnEN, headers: {Host: channel2.unlimiteddev.tk}}, connectspeed: 7610}
   - {name: "🇸🇬 _SG_新加坡 2518E", type: trojan, server: bgptw2.cnamazon.sbs, port: 443, client-fingerprint: chrome, password: e015d739-1656-4e9a-b0cc-5d8f11b0db5b, sni: tlsdata.cnamazon.sbs, tfo: false, skip-cert-verify: false, connectspeed: 10562}
   - {name: "TW_分享日记_3D088", type: trojan, server: bgptw2.cnamazon.sbs, port: 443, udp: true, password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true, network: tcp, connectspeed: 21954}
   - {name: "🇭🇰HK香港 伟科_19E36", type: vmess, server: hgc1.pmssr.xyz, port: 443, cipher: auto, uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18, alterId: 0, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {host: hgc1.pmssr.xyz}}, connectspeed: 25984}
+  - {name: "🇺🇸 US_分享日记_3248C1", type: vmess, server: ahsorathiyaa.fly.dev, port: 443, cipher: auto, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {host: ahsorathiyaa.fly.dev}}, connectspeed: 26579}
   - {name: "US_FreeNode.me_12303C7", type: vmess, server: cf-lt.sharecentre.online, port: 443, cipher: auto, uuid: 998fed0b-6958-4998-ae60-86ccf8d37447, alterId: 0, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dallas.starsea.vip}}, connectspeed: 41984}
   - {name: "🇭🇰HK香港 伟科_17C0E9", type: trojan, server: awshk1.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, connectspeed: 48844}
   - {name: "🇭🇰_HK_香港_2_353B4A", type: trojan, server: awshk1.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, network: tcp, connectspeed: 54031}
@@ -303,7 +303,6 @@ proxy-groups:
       - "🇺🇸_US_美国_;kkzui5_2216E8"
       - "🇺🇸_US_美国_;kkzui_28CFBC"
       - " 🇫🇷 France 033812"
-      - "🇺🇸US美国 伟科_547BCD"
       - "LU卢森堡 伟科_19E1F"
       - " 🇨🇳 China 05F0F7"
       - "HK_FreeNode.me_1010E2A"
@@ -311,16 +310,17 @@ proxy-groups:
       - "🇯🇵JP日本 伟科_42D0D"
       - " 🇺🇸 United States 50E9C8"
       - "YouTube面具人_96583"
+      - "🇺🇸US美国 伟科_547BCD"
       - "🇸🇬SG新加坡 伟科_48509"
-      - "YouTube面具人_254D85"
       - "🇺🇸 _US_美国 44C73"
+      - "YouTube面具人_254D85"
+      - "US_FreeNode.me_20B88F"
       - "YouTube面具人_1012ED"
       - "YouTube面具人_24C8AE"
       - "🇰🇷KR韩国 伟科_470C7"
       - "🇭🇰HK香港 伟科_7C8B7"
       - "YouTube面具人_865D6"
       - "🇭🇰_HK_香港_;kkzui_11E9E7"
-      - "US_FreeNode.me_20B88F"
       - "🇭🇰HK香港 伟科_7A93C"
       - "YouTube面具人_5102A"
       - "YouTube面具人_65C8B"
@@ -328,18 +328,19 @@ proxy-groups:
       - "🇭🇰HK香港 伟科_86646"
       - "NL_分享日记_14D53"
       - "🇹🇼TW台湾 伟科_562C6"
-      - "🇭🇰HK香港 伟科_64E0A"
       - "🇺🇸US美国 伟科_17CD09"
       - "YouTube面具人_13FE1"
-      - "YouTube面具人_8DD69"
-      - "YouTube面具人_11F304"
       - "🇺🇸US美国 伟科_14B312"
+      - "YouTube面具人_11F304"
       - "🇬🇧GB英国 伟科_4CBAF"
       - "YouTube面具人_49D74"
+      - "🇭🇰HK香港 伟科_64E0A"
+      - "TW_分享日记_29053"
       - "🇺🇸US美国 伟科_48C932"
       - "SW瑞士 伟科067D"
       - "🇭🇰_HK_香港_3_38883D"
       - "🇺🇸US美国 伟科_20F769"
+      - "🇯🇵 Japan 2410EF"
       - "YouTube面具人_19A154"
       - "🇺🇸US美国 伟科_276568"
       - "🇺🇸US美国 伟科_101E88"
@@ -349,14 +350,14 @@ proxy-groups:
       - "🇺🇸US美国 伟科_188347"
       - "🇺🇸US美国 伟科_19ACA8"
       - "🇺🇸US美国 伟科_35631B"
-      - "US_FreeNode.me_4772FF"
-      - "YouTube面具人_12CC06"
       - "@SSRSUB-V23-付费推荐suo.yt/ssrsub943F"
+      - "🇺🇸 _US_美国 154692"
       - "🇺🇸US美国 伟科_12B0BC"
       - "JP_FreeNode.me_2418C40"
       - "🇺🇸US美国 伟科_127B41"
       - "🇹🇼TW台湾 伟科_1192DD"
-      - "TW_分享日记_29053"
+      - "US_FreeNode.me_4772FF"
+      - " 🇺🇸 United States 0233CA"
       - "🇭🇰HK香港 伟科95F1"
       - "🇭🇰HK香港 伟科_62C40"
       - "🇭🇰HK香港 伟科_72322"
@@ -400,28 +401,27 @@ proxy-groups:
       - "🇷🇺_RU_俄罗斯联邦_253EB0"
       - "🇳🇱NL荷兰 伟科_28D2D"
       - "🇰🇷KR韩国 伟科0E31"
-      - "🇺🇸US美国 伟科_23302C"
-      - "🇺🇸 _US_美国 154692"
       - "YouTube面具人_2130C5"
-      - " 🇺🇸 United States 0233CA"
       - "🇺🇸 _US_美国 156C0A"
       - "🇺🇸US美国 伟科_32F99B"
-      - "🇸🇬 Singapore 199889"
       - "YouTube面具人_167355"
-      - "🇺🇸 US_分享日记_33DCB0"
+      - "🇺🇸 US_分享日记_453B42"
       - "🇺🇸US美国 伟科_29DD32"
+      - "🇺🇸 US_分享日记_33DCB0"
       - "🇹🇼TW台湾 伟科_27072"
-      - "US_FreeNode.me_1473B56"
+      - "🇺🇸 US_分享日记_22ED5A"
       - "🇺🇸_US_美国_6_9BD08"
       - "🇺🇸 United States 667185"
+      - "🇸🇬 Singapore 199889"
+      - "🇺🇸US美国 伟科_23302C"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_kkzui5E028"
-      - "🇺🇸 US_分享日记_22ED5A"
-      - "🇺🇸 US_分享日记_453B42"
+      - "US_FreeNode.me_1473B56"
       - "SG_分享日记_9136D"
-      - "🇺🇸 US_分享日记_3248C1"
+      - "🇺🇲 美国79 2FFEE"
       - "🇸🇬 _SG_新加坡 2518E"
       - "TW_分享日记_3D088"
       - "🇭🇰HK香港 伟科_19E36"
+      - "🇺🇸 US_分享日记_3248C1"
       - "US_FreeNode.me_12303C7"
       - "🇭🇰HK香港 伟科_17C0E9"
       - "🇭🇰_HK_香港_2_353B4A"
@@ -436,7 +436,6 @@ proxy-groups:
       - "🇺🇸_US_美国_;kkzui5_2216E8"
       - "🇺🇸_US_美国_;kkzui_28CFBC"
       - " 🇫🇷 France 033812"
-      - "🇺🇸US美国 伟科_547BCD"
       - "LU卢森堡 伟科_19E1F"
       - " 🇨🇳 China 05F0F7"
       - "HK_FreeNode.me_1010E2A"
@@ -444,16 +443,17 @@ proxy-groups:
       - "🇯🇵JP日本 伟科_42D0D"
       - " 🇺🇸 United States 50E9C8"
       - "YouTube面具人_96583"
+      - "🇺🇸US美国 伟科_547BCD"
       - "🇸🇬SG新加坡 伟科_48509"
-      - "YouTube面具人_254D85"
       - "🇺🇸 _US_美国 44C73"
+      - "YouTube面具人_254D85"
+      - "US_FreeNode.me_20B88F"
       - "YouTube面具人_1012ED"
       - "YouTube面具人_24C8AE"
       - "🇰🇷KR韩国 伟科_470C7"
       - "🇭🇰HK香港 伟科_7C8B7"
       - "YouTube面具人_865D6"
       - "🇭🇰_HK_香港_;kkzui_11E9E7"
-      - "US_FreeNode.me_20B88F"
       - "🇭🇰HK香港 伟科_7A93C"
       - "YouTube面具人_5102A"
       - "YouTube面具人_65C8B"
@@ -461,18 +461,19 @@ proxy-groups:
       - "🇭🇰HK香港 伟科_86646"
       - "NL_分享日记_14D53"
       - "🇹🇼TW台湾 伟科_562C6"
-      - "🇭🇰HK香港 伟科_64E0A"
       - "🇺🇸US美国 伟科_17CD09"
       - "YouTube面具人_13FE1"
-      - "YouTube面具人_8DD69"
-      - "YouTube面具人_11F304"
       - "🇺🇸US美国 伟科_14B312"
+      - "YouTube面具人_11F304"
       - "🇬🇧GB英国 伟科_4CBAF"
       - "YouTube面具人_49D74"
+      - "🇭🇰HK香港 伟科_64E0A"
+      - "TW_分享日记_29053"
       - "🇺🇸US美国 伟科_48C932"
       - "SW瑞士 伟科067D"
       - "🇭🇰_HK_香港_3_38883D"
       - "🇺🇸US美国 伟科_20F769"
+      - "🇯🇵 Japan 2410EF"
       - "YouTube面具人_19A154"
       - "🇺🇸US美国 伟科_276568"
       - "🇺🇸US美国 伟科_101E88"
@@ -482,14 +483,14 @@ proxy-groups:
       - "🇺🇸US美国 伟科_188347"
       - "🇺🇸US美国 伟科_19ACA8"
       - "🇺🇸US美国 伟科_35631B"
-      - "US_FreeNode.me_4772FF"
-      - "YouTube面具人_12CC06"
       - "@SSRSUB-V23-付费推荐suo.yt/ssrsub943F"
+      - "🇺🇸 _US_美国 154692"
       - "🇺🇸US美国 伟科_12B0BC"
       - "JP_FreeNode.me_2418C40"
       - "🇺🇸US美国 伟科_127B41"
       - "🇹🇼TW台湾 伟科_1192DD"
-      - "TW_分享日记_29053"
+      - "US_FreeNode.me_4772FF"
+      - " 🇺🇸 United States 0233CA"
       - "🇭🇰HK香港 伟科95F1"
       - "🇭🇰HK香港 伟科_62C40"
       - "🇭🇰HK香港 伟科_72322"
@@ -533,28 +534,27 @@ proxy-groups:
       - "🇷🇺_RU_俄罗斯联邦_253EB0"
       - "🇳🇱NL荷兰 伟科_28D2D"
       - "🇰🇷KR韩国 伟科0E31"
-      - "🇺🇸US美国 伟科_23302C"
-      - "🇺🇸 _US_美国 154692"
       - "YouTube面具人_2130C5"
-      - " 🇺🇸 United States 0233CA"
       - "🇺🇸 _US_美国 156C0A"
       - "🇺🇸US美国 伟科_32F99B"
-      - "🇸🇬 Singapore 199889"
       - "YouTube面具人_167355"
-      - "🇺🇸 US_分享日记_33DCB0"
+      - "🇺🇸 US_分享日记_453B42"
       - "🇺🇸US美国 伟科_29DD32"
+      - "🇺🇸 US_分享日记_33DCB0"
       - "🇹🇼TW台湾 伟科_27072"
-      - "US_FreeNode.me_1473B56"
+      - "🇺🇸 US_分享日记_22ED5A"
       - "🇺🇸_US_美国_6_9BD08"
       - "🇺🇸 United States 667185"
+      - "🇸🇬 Singapore 199889"
+      - "🇺🇸US美国 伟科_23302C"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_kkzui5E028"
-      - "🇺🇸 US_分享日记_22ED5A"
-      - "🇺🇸 US_分享日记_453B42"
+      - "US_FreeNode.me_1473B56"
       - "SG_分享日记_9136D"
-      - "🇺🇸 US_分享日记_3248C1"
+      - "🇺🇲 美国79 2FFEE"
       - "🇸🇬 _SG_新加坡 2518E"
       - "TW_分享日记_3D088"
       - "🇭🇰HK香港 伟科_19E36"
+      - "🇺🇸 US_分享日记_3248C1"
       - "US_FreeNode.me_12303C7"
       - "🇭🇰HK香港 伟科_17C0E9"
       - "🇭🇰_HK_香港_2_353B4A"
@@ -569,7 +569,6 @@ proxy-groups:
       - "🇺🇸_US_美国_;kkzui5_2216E8"
       - "🇺🇸_US_美国_;kkzui_28CFBC"
       - " 🇫🇷 France 033812"
-      - "🇺🇸US美国 伟科_547BCD"
       - "LU卢森堡 伟科_19E1F"
       - " 🇨🇳 China 05F0F7"
       - "HK_FreeNode.me_1010E2A"
@@ -577,16 +576,17 @@ proxy-groups:
       - "🇯🇵JP日本 伟科_42D0D"
       - " 🇺🇸 United States 50E9C8"
       - "YouTube面具人_96583"
+      - "🇺🇸US美国 伟科_547BCD"
       - "🇸🇬SG新加坡 伟科_48509"
-      - "YouTube面具人_254D85"
       - "🇺🇸 _US_美国 44C73"
+      - "YouTube面具人_254D85"
+      - "US_FreeNode.me_20B88F"
       - "YouTube面具人_1012ED"
       - "YouTube面具人_24C8AE"
       - "🇰🇷KR韩国 伟科_470C7"
       - "🇭🇰HK香港 伟科_7C8B7"
       - "YouTube面具人_865D6"
       - "🇭🇰_HK_香港_;kkzui_11E9E7"
-      - "US_FreeNode.me_20B88F"
       - "🇭🇰HK香港 伟科_7A93C"
       - "YouTube面具人_5102A"
       - "YouTube面具人_65C8B"
@@ -594,18 +594,19 @@ proxy-groups:
       - "🇭🇰HK香港 伟科_86646"
       - "NL_分享日记_14D53"
       - "🇹🇼TW台湾 伟科_562C6"
-      - "🇭🇰HK香港 伟科_64E0A"
       - "🇺🇸US美国 伟科_17CD09"
       - "YouTube面具人_13FE1"
-      - "YouTube面具人_8DD69"
-      - "YouTube面具人_11F304"
       - "🇺🇸US美国 伟科_14B312"
+      - "YouTube面具人_11F304"
       - "🇬🇧GB英国 伟科_4CBAF"
       - "YouTube面具人_49D74"
+      - "🇭🇰HK香港 伟科_64E0A"
+      - "TW_分享日记_29053"
       - "🇺🇸US美国 伟科_48C932"
       - "SW瑞士 伟科067D"
       - "🇭🇰_HK_香港_3_38883D"
       - "🇺🇸US美国 伟科_20F769"
+      - "🇯🇵 Japan 2410EF"
       - "YouTube面具人_19A154"
       - "🇺🇸US美国 伟科_276568"
       - "🇺🇸US美国 伟科_101E88"
@@ -615,14 +616,14 @@ proxy-groups:
       - "🇺🇸US美国 伟科_188347"
       - "🇺🇸US美国 伟科_19ACA8"
       - "🇺🇸US美国 伟科_35631B"
-      - "US_FreeNode.me_4772FF"
-      - "YouTube面具人_12CC06"
       - "@SSRSUB-V23-付费推荐suo.yt/ssrsub943F"
+      - "🇺🇸 _US_美国 154692"
       - "🇺🇸US美国 伟科_12B0BC"
       - "JP_FreeNode.me_2418C40"
       - "🇺🇸US美国 伟科_127B41"
       - "🇹🇼TW台湾 伟科_1192DD"
-      - "TW_分享日记_29053"
+      - "US_FreeNode.me_4772FF"
+      - " 🇺🇸 United States 0233CA"
       - "🇭🇰HK香港 伟科95F1"
       - "🇭🇰HK香港 伟科_62C40"
       - "🇭🇰HK香港 伟科_72322"
@@ -666,28 +667,27 @@ proxy-groups:
       - "🇷🇺_RU_俄罗斯联邦_253EB0"
       - "🇳🇱NL荷兰 伟科_28D2D"
       - "🇰🇷KR韩国 伟科0E31"
-      - "🇺🇸US美国 伟科_23302C"
-      - "🇺🇸 _US_美国 154692"
       - "YouTube面具人_2130C5"
-      - " 🇺🇸 United States 0233CA"
       - "🇺🇸 _US_美国 156C0A"
       - "🇺🇸US美国 伟科_32F99B"
-      - "🇸🇬 Singapore 199889"
       - "YouTube面具人_167355"
-      - "🇺🇸 US_分享日记_33DCB0"
+      - "🇺🇸 US_分享日记_453B42"
       - "🇺🇸US美国 伟科_29DD32"
+      - "🇺🇸 US_分享日记_33DCB0"
       - "🇹🇼TW台湾 伟科_27072"
-      - "US_FreeNode.me_1473B56"
+      - "🇺🇸 US_分享日记_22ED5A"
       - "🇺🇸_US_美国_6_9BD08"
       - "🇺🇸 United States 667185"
+      - "🇸🇬 Singapore 199889"
+      - "🇺🇸US美国 伟科_23302C"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_kkzui5E028"
-      - "🇺🇸 US_分享日记_22ED5A"
-      - "🇺🇸 US_分享日记_453B42"
+      - "US_FreeNode.me_1473B56"
       - "SG_分享日记_9136D"
-      - "🇺🇸 US_分享日记_3248C1"
+      - "🇺🇲 美国79 2FFEE"
       - "🇸🇬 _SG_新加坡 2518E"
       - "TW_分享日记_3D088"
       - "🇭🇰HK香港 伟科_19E36"
+      - "🇺🇸 US_分享日记_3248C1"
       - "US_FreeNode.me_12303C7"
       - "🇭🇰HK香港 伟科_17C0E9"
       - "🇭🇰_HK_香港_2_353B4A"
