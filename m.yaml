@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：
 # 客户端：Clash
-# 创建时间：2023/6/4 0:44:34
+# 创建时间：2023/6/4 7:57:00
 # 使用模版：V2RaySE 默认模版
 # 节点数量：303
 ####################################
@@ -317,7 +317,7 @@ proxies:
   - {name: US_FreeNode.me_39F8B6, server: 104.21.61.58, port: 2052, type: vmess, uuid: 0227edc4-8735-4370-ac42-4e8147920f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer10, headers: {Host: tou.vtcss.top}}}
   - {"name":"🇺🇸美国【YouTube-由零開始】_46874A","type":"vmess","server":"198.41.209.107","port":8880,"cipher":"auto","uuid":"cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
   - {name: 🇷🇺 俄罗斯联邦17583F, type: vmess, server: 185.133.40.192, port: 35059, cipher: auto, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, tls: false, skip-cert-verify: true, connectspeed: 813}
-  - {name: @SSRSUB-V02-付费推荐suo.yt/ssrsub2758, type: vmess, server: v2ray.online, port: 443, cipher: auto, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, connectspeed: 2625}
+  - {name: SSRSUB-V02-付费推荐suo.yt/ssrsub2758, type: vmess, server: v2ray.online, port: 443, cipher: auto, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, connectspeed: 2625}
   - {"type":"trojan","name":"🇺🇸US美国 伟科_38118","server":"163.123.192.151","port":443,"password":"a22d2ebe-51a8-47ab-82fa-17dcfcd2f26b","udp":true,"skip-cert-verify":true,"sni":"download.xn--mes358acgm99l.com"}
   - {"name":"🇺🇸美国【YouTube-由零開始】_78DFB","type":"vmess","server":"198.41.193.174","port":8880,"cipher":"auto","uuid":"cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
   - {name: 🇫🇷_FR_法国_27E1A9, type: ssr, server: fr-am1-5.eqsunshine.com, port: 8181, password: RcfVcDzzB, cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth, connectspeed: 2000}
@@ -572,7 +572,7 @@ proxy-groups:
       - "🇨🇳_CN_中国->🇭🇰_HK_香港_kkzui_16372C"
       - "🇻🇳VN越南 伟科9EED"
       - "🇺🇸US美国 伟科_9C54F"
-      - "@SSRSUB-V01-付费推荐suo.yt/ssrsub627F"
+      - "SSRSUB-V01-付费推荐suo.yt/ssrsub627F"
       - "US_FreeNode.me_902312"
       - "US_FreeNode.me_223C63"
       - "🇺🇸美国【YouTube-由零開始】_28A1EA"
@@ -625,7 +625,7 @@ proxy-groups:
       - "US_FreeNode.me_39F8B6"
       - "🇺🇸美国【YouTube-由零開始】_46874A"
       - "🇷🇺 俄罗斯联邦17583F"
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub2758"
+      - "SSRSUB-V02-付费推荐suo.yt/ssrsub2758"
       - "🇺🇸US美国 伟科_38118"
       - "🇺🇸美国【YouTube-由零開始】_78DFB"
       - "🇫🇷_FR_法国_27E1A9"
@@ -881,7 +881,7 @@ proxy-groups:
       - "🇨🇳_CN_中国->🇭🇰_HK_香港_kkzui_16372C"
       - "🇻🇳VN越南 伟科9EED"
       - "🇺🇸US美国 伟科_9C54F"
-      - "@SSRSUB-V01-付费推荐suo.yt/ssrsub627F"
+      - "SSRSUB-V01-付费推荐suo.yt/ssrsub627F"
       - "US_FreeNode.me_902312"
       - "US_FreeNode.me_223C63"
       - "🇺🇸美国【YouTube-由零開始】_28A1EA"
@@ -934,7 +934,7 @@ proxy-groups:
       - "US_FreeNode.me_39F8B6"
       - "🇺🇸美国【YouTube-由零開始】_46874A"
       - "🇷🇺 俄罗斯联邦17583F"
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub2758"
+      - "SSRSUB-V02-付费推荐suo.yt/ssrsub2758"
       - "🇺🇸US美国 伟科_38118"
       - "🇺🇸美国【YouTube-由零開始】_78DFB"
       - "🇫🇷_FR_法国_27E1A9"
@@ -1190,7 +1190,7 @@ proxy-groups:
       - "🇨🇳_CN_中国->🇭🇰_HK_香港_kkzui_16372C"
       - "🇻🇳VN越南 伟科9EED"
       - "🇺🇸US美国 伟科_9C54F"
-      - "@SSRSUB-V01-付费推荐suo.yt/ssrsub627F"
+      - "SSRSUB-V01-付费推荐suo.yt/ssrsub627F"
       - "US_FreeNode.me_902312"
       - "US_FreeNode.me_223C63"
       - "🇺🇸美国【YouTube-由零開始】_28A1EA"
@@ -1243,7 +1243,7 @@ proxy-groups:
       - "US_FreeNode.me_39F8B6"
       - "🇺🇸美国【YouTube-由零開始】_46874A"
       - "🇷🇺 俄罗斯联邦17583F"
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub2758"
+      - "SSRSUB-V02-付费推荐suo.yt/ssrsub2758"
       - "🇺🇸US美国 伟科_38118"
       - "🇺🇸美国【YouTube-由零開始】_78DFB"
       - "🇫🇷_FR_法国_27E1A9"
