@@ -1,15 +1,9 @@
 ﻿####################################
 # 创建者：
 # 客户端：Clash
-<<<<<<< HEAD
-# 创建时间：2023/6/5 6:59:28
-# 使用模版：V2RaySE 默认模版
-# 节点数量：60
-=======
-# 创建时间：2023/6/4 23:17:59
+# 创建时间：2023/6/5 10:23:04
 # 使用模版：V2RaySE 默认模版
 # 节点数量：250
->>>>>>> 12c763aa4713611c4cfb11fd4ef0f4e27a3480b6
 ####################################
 port: 17890
 socks-port: 17891
@@ -172,515 +166,263 @@ dns:
       - +.googletagservices.com
 proxies:
 
-<<<<<<< HEAD
-  - {"type":"ssr","name":"🇭🇰HK香港 伟科_6A31F","server":"8.218.71.75","port":50835,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3453453tr4"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_3_500788","type":"vmess","server":"120.226.50.68","port":48767,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"ssr","name":"🇭🇰HK香港 伟科_5585B","server":"8.217.83.192","port":62346,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"23423er33"}
+  - {name: 🇭🇰HK香港 伟科_2C7DB, type: ssr, server: 8.217.92.57, port: 47323, password: 234r3434, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
+  - {"type":"ssr","name":"🇭🇰HK香港 伟科_36897","server":"8.217.92.57","port":48899,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"23434r4"}
+  - {name: 🇭🇰HK香港 伟科_6CD66, type: ssr, server: 8.217.88.237, port: 48200, password: 87234y4, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_12B8B6","type":"vmess","server":"120.226.50.68","port":59902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_3_500788","type":"vmess","server":"120.226.50.68","port":48767,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇹🇼台湾【YouTube-由零開始】_3EF29","type":"trojan","server":"hinet1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true}
-  - {"name":"🇰🇷_KR_韩国_2_48F8DD","type":"ss","server":"43.201.250.192","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {name: JP_20EF4, server: fscsg.fscloud123456789.com, port: 443, type: trojan, password: fd47bd8c-21e5-4bbd-8ab1-c17005a9ac98, skip-cert-verify: false}
-  - {"name":"🇯🇵日本【YouTube-由零開始】_1385C","type":"trojan","server":"jp1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵JP日本 伟科_66FCF","server":"jp1.downloadvip.cfd","port":443,"password":"a22d2ebe-51a8-47ab-82fa-17dcfcd2f26b","udp":true,"skip-cert-verify":true,"sni":"download.xn--mes358acgm99l.com"}
+  - {"type":"ssr","name":"🇭🇰HK香港 伟科_6A31F","server":"8.218.71.75","port":50835,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3453453tr4"}
+  - {name: 🇭🇰HK香港 伟科_143ADD, type: ssr, server: 8.217.92.210, port: 60073, password: 23648234y4, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
+  - {name: HK_FreeNode.me_101D311, type: vmess, server: 43.154.122.126, port: 52891, cipher: auto, uuid: 82adc998-88ab-4c87-8b86-5bc39e80f5b2, alterId: 64, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk1/getData, headers: {Host: hk1.nb123.info}}, connectspeed: 235}
+  - {name: 🇭🇰HK香港 伟科_152304, type: ssr, server: 8.217.89.229, port: 53659, password: 345u3458, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF, server: assets.flareai.site, port: 13543, client-fingerprint: chrome, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, tfo: false, skip-cert-verify: false}
   - {"name":"🇯🇵_JP_日本_42CDA4","type":"trojan","server":"jp1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼台湾【YouTube-由零開始】_299B9","type":"trojan","server":"kaizen-tw-4.mielink-dns2.com","port":443,"udp":true,"password":"0d4926a0-9881-3609-b6ee-4716da84e59emielink","sni":"paydiu.com","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC","type":"trojan","server":"assets.flareai.site","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇭🇰HK香港 伟科_2E7C9, type: ssr, server: 8.217.92.210, port: 53645, password: 62374y354, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
+  - {"type":"trojan","name":"🇯🇵JP日本 伟科_66FCF","server":"jp1.downloadvip.cfd","port":443,"password":"a22d2ebe-51a8-47ab-82fa-17dcfcd2f26b","udp":true,"skip-cert-verify":true,"sni":"download.xn--mes358acgm99l.com"}
+  - {"name":"🇯🇵日本【YouTube-由零開始】_1385C","type":"trojan","server":"jp1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true}
   - {"type":"trojan","name":"🇯🇵JP日本 伟科_26980","server":"jp2.downloadvip.cfd","port":443,"password":"20abfcfc-c717-4ac5-8642-a0979f595474","udp":true,"skip-cert-verify":true,"sni":"download.xn--mes358a9urctx.com"}
-  - {name: JP_1EC4A, server: fscjp.fscloud123456789.com, port: 443, type: trojan, password: b244e655-a76c-4801-b1ec-6cac34e2a51b, skip-cert-verify: false}
+  - {name: 🇹🇼TW台湾 伟科_570B8, type: trojan, server: tw5.microsoft-orgwly.vip, port: 443, udp: true, password: 7b9785bd-d916-4d1c-bf92-aa153bc099ba, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 1032}
   - {name: CN_26436A, server: h961359.waihuizhibiaowang.com, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, skip-cert-verify: false}
-  - {"type":"ssr","name":"🇭🇰HK香港 伟科_28E8B","server":"112.33.52.63","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
-  - {"name":"🇭🇰香港【YouTube-由零開始】_260F4","type":"trojan","server":"kaizen-hk-4.mielink-dns2.com","port":443,"udp":true,"password":"0d4926a0-9881-3609-b6ee-4716da84e59emielink","sni":"paydiu.com","skip-cert-verify":true}
-  - {"name":"🇰🇷_KR_韩国_kkzui_413641","type":"ss","server":"43.201.254.164","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {name: TW_24F57D, server: kaizen-tw-6.paolu.co, port: 443, type: trojan, password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink, sni: paydiu.com, skip-cert-verify: false}
-  - {name: IL_20B6AD, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇯🇵 _IL_以色列->🇯🇵_JP_日本9396, server: jp2.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, skip-cert-verify: false}
+  - {name: 🇸🇬SG新加坡 伟科_1E296, type: ssr, server: 8.217.90.243, port: 54402, password: 254243r44, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
   - {name: 台湾18|twE381, server: 1.tw-18.tly04.com, port: 10000, type: ss, cipher: aes-256-gcm, password: dP5lX1DbnSmPf9uL, udp: true}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_1942D0","server":"137.175.29.38","port":"53986","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"name":"🇸🇬新加坡【YouTube-由零開始】_407A5","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"90a0fed1-c27c-4eab-95d6-12f038ced5ab","skip-cert-verify":true}
+  - {"name":"🇨🇳中国【YouTube-由零開始】_1C068","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true}
+  - {name: IL_20B6AD, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: YouTube面具人_2F3CA, type: vmess, server: 15038.kuaiyincdn.uk, port: 15038, cipher: auto, uuid: b6243a0c-4d8b-3f30-8598-a73d343a3787, alterId: 0, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 734}
   - {"name":"🇺🇸_US_美国_kkzui2_342D8D","type":"vmess","server":"137.175.29.38","port":53986,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {name: TW_24F57D, server: kaizen-tw-6.paolu.co, port: 443, type: trojan, password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink, sni: paydiu.com, skip-cert-verify: false}
+  - {"name":"🇭🇰香港【YouTube-由零開始】_260F4","type":"trojan","server":"kaizen-hk-4.mielink-dns2.com","port":443,"udp":true,"password":"0d4926a0-9881-3609-b6ee-4716da84e59emielink","sni":"paydiu.com","skip-cert-verify":true}
+  - {name: 🇭🇰_HK_香港_2_35B0C5, type: trojan, server: awshk1.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, network: tcp, connectspeed: 54031}
+  - {"type":"vmess","name":"🇺🇸US美国 伟科_1942D0","server":"137.175.29.38","port":"53986","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {name: 🇭🇰_HK_香港_3_3859E6, type: trojan, server: awsjp2.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, network: tcp, connectspeed: 1391}
   - {"name":"🇺🇸_US_美国_8_237B08","type":"vmess","server":"23.224.15.181","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"none"}
-  - {"type":"trojan","name":"🇸🇬SG新加坡 伟科_1DD10","server":"fscsg.fscloud123456789.com","port":443,"password":"0ac1a0a8-2a02-4ec8-acbe-704a13a471ab","udp":true,"skip-cert-verify":true}
-  - {name: SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: VN_FreeNode.me_16675AB, type: trojan, server: vn2.microsoft-orgwly.vip, port: 443, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false, connectspeed: 938}
+  - {name: 台湾2|cn-tw7E08, server: 1.tw-2.tly04.com, port: 9031, type: ss, cipher: aes-256-gcm, password: dP5lX1DbnSmPf9uL, udp: true}
+  - {"type":"ssr","name":"🇰🇷KR韩国 伟科_16598","server":"43.200.216.127","port":443,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"plain","password":"vyunme","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX"}
+  - {name: 🇭🇰HK香港 伟科_1706C6, type: trojan, server: awshk1.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, connectspeed: 48844}
+  - {"type":"vmess","name":"🇺🇸US美国 伟科_206831","server":"23.224.15.181","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"name":"🇸🇬新加坡【YouTube-由零開始】_407A5","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"90a0fed1-c27c-4eab-95d6-12f038ced5ab","skip-cert-verify":true}
+  - {name: YouTube面具人_610BF, type: trojan, server: vn2.microsoft-orgwly.vip, port: 443, udp: true, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, network: tcp, connectspeed: 1016}
+  - {name: JP_1EC4A, server: fscjp.fscloud123456789.com, port: 443, type: trojan, password: b244e655-a76c-4801-b1ec-6cac34e2a51b, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_3869AB","type":"vmess","server":"23.224.15.181","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: JP_FreeNode.me_3464A3, type: trojan, server: fscsg.fscloud123456789.com, port: 443, password: 6b1d487a-44c7-402d-bb9d-0e1a4f1ab313, skip-cert-verify: false, connectspeed: 2734}
+  - {"type":"ssr","name":"🇭🇰HK香港 伟科_28E8B","server":"112.33.52.63","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
+  - {"type":"trojan","name":"🇯🇵JP日本 伟科_42B3C","server":"fscjp.fscloud123456789.com","port":443,"password":"0ac1a0a8-2a02-4ec8-acbe-704a13a471ab","udp":true,"skip-cert-verify":true}
   - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_4B051","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
   - {name: CN_853DD7, server: g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com, port: 26001, type: vmess, uuid: FF5D3BF5-1296-FB0A-4596-B3CD0C884200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_3869AB","type":"vmess","server":"23.224.15.181","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"type":"ssr","name":"🇭🇰HK香港 伟科_36897","server":"8.217.92.57","port":48899,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"23434r4"}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_206831","server":"23.224.15.181","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇰🇷KR韩国 伟科_2FF76","server":"fsckr.fscloud123456789.com","port":443,"password":"0ac1a0a8-2a02-4ec8-acbe-704a13a471ab","udp":true,"skip-cert-verify":true}
-  - {"name":"🇨🇳中国【YouTube-由零開始】_1C068","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC","type":"trojan","server":"assets.flareai.site","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true,"network":"tcp"}
-  - {name: IL_3703DA, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {"name":"🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7","type":"trojan","server":"us2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF, server: assets.flareai.site, port: 13543, client-fingerprint: chrome, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, tfo: false, skip-cert-verify: false}
-  - {"name":"🇨🇳_CN_中国_2_47E41D","type":"vmess","server":"iepl2.airtcp.vip","port":20001,"cipher":"auto","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":2,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_4ECB6","ws-opts":{"path":"/shirker","headers":{"host":"dp4.scproxy.top"}},"server":"cf-lt.sharecentre.online","port":"80","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸US美国(阿伟科技_21680","server":"iepl2.airtcp.vip","port":"20001","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":"2","cipher":"auto","network":"tcp"}
-  - {name: 🇮🇱_IL_以色列->🇺🇸_US_美国_384B8D, type: trojan, server: us1.chuqiangtou.net, port: 4003, udp: true, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net, skip-cert-verify: true, network: tcp, connectspeed: 1875}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_12670F","server":"iepl2.airtcp.vip","port":"51002","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":"2","cipher":"auto","network":"tcp"}
-  - {name: SSRSUB-V26-付费推荐dlj.tf/ssrsub8063, server: iepl2.airtcp.vip, port: 51002, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {"name":"🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_kkzui_163DFF","type":"trojan","server":"au1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2_20DF93","type":"vmess","server":"iepl2.airtcp.vip","port":51002,"cipher":"auto","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":2,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: RU_1705F5, server: kaizen-ru-2.mielink-dns2.com, port: 443, type: trojan, password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink, sni: paydiu.com, skip-cert-verify: false}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_31AD4A","server":"ieplhk.lanyunshi.top","port":"51004","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":"2","cipher":"auto","network":"tcp"}
-  - {name: IL_25490A, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {"name":"🇨🇳_CN_中国_kkzui_76674","type":"vmess","server":"ieplhk.lanyunshi.top","port":51004,"cipher":"auto","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":2,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: IL_9CAF2, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇺🇸 _IL_以色列->🇺🇸_US_美国BB2D, server: us2.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, skip-cert-verify: false}
-  - {name: CN_23DBF0, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2}
-  - {name: SSRSUB-V10-付费推荐dlj.tf/ssrsubBAB7, server: ieplhk.lanyunshi.top, port: 51004, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1229B0, server: 163.123.192.155, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false}
-  - {name: US_21FCD0, server: 163.123.192.153, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false}
-  - {name: 🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223, server: au1.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, skip-cert-verify: false}
-  - {"type":"trojan","name":"🇺🇸US美国 伟科_38118","server":"163.123.192.151","port":443,"password":"a22d2ebe-51a8-47ab-82fa-17dcfcd2f26b","udp":true,"skip-cert-verify":true,"sni":"download.xn--mes358acgm99l.com"}
-  - {name: 🇺🇸 United States 017728, type: trojan, server: 163.123.192.153, port: 443, udp: true, password: 194e456a-68d2-4f05-b554-c7282d32abae, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, connectspeed: 687}
-  - {"name":"🇺🇸_US_美国_3_403510","type":"trojan","server":"163.123.192.151","port":443,"udp":true,"password":"e317f981-8604-488a-804f-e4ef40cc22bb","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪_DE_德国_kkzui87367","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"20abfcfc-c717-4ac5-8642-a0979f595474","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-=======
-  - {name: 🇸🇬SG新加坡 伟科_1E296, type: ssr, server: 8.217.90.243, port: 54402, password: 254243r44, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {"type":"ssr","name":"🇭🇰HK香港 伟科_5585B","server":"8.217.83.192","port":62346,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"23423er33"}
-  - {name: 🇭🇰HK香港 伟科_2F5F8, type: ssr, server: 8.217.89.239, port: 57138, password: 223423r34, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: 🇭🇰HK香港 伟科_35C5D, type: ssr, server: 8.217.89.239, port: 59120, password: 8734834u5, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: 🇭🇰HK香港 伟科_174CC8, type: ssr, server: 8.217.88.237, port: 49436, password: 23423r33, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: 🇭🇰HK香港 伟科_19D9A7, type: ssr, server: 8.218.71.75, port: 52710, password: 234324r3, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: 🇭🇰HK香港 伟科_152304, type: ssr, server: 8.217.89.229, port: 53659, password: 345u3458, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: 🇭🇰HK香港 伟科_143ADD, type: ssr, server: 8.217.92.210, port: 60073, password: 23648234y4, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {"type":"ssr","name":"🇭🇰HK香港 伟科_6A31F","server":"8.218.71.75","port":50835,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3453453tr4"}
-  - {name: SG_FreeNode.me_1135F0B, type: vmess, server: 27.124.47.64, port: 50002, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: false, connectspeed: 7344}
-  - {name: 🇨🇳 China 05B27C, type: vmess, server: cdn.kunlun-auto.com, port: 14022, udp: true, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 234}
-  - {name: 🇭🇰HK香港 伟科_2E7C9, type: ssr, server: 8.217.92.210, port: 53645, password: 62374y354, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: 🇭🇰HK香港 伟科_2C7DB, type: ssr, server: 8.217.92.57, port: 47323, password: 234r3434, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: 🇭🇰HK香港 伟科_6CD66, type: ssr, server: 8.217.88.237, port: 48200, password: 87234y4, cipher: dummy, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, connectspeed: 2000}
-  - {name: JP日本 伟科 985DE, type: ss, server: jp3.lianpi.xyz, port: 34234, udp: true, password: c5c0dca9-902b-4d7f-b217-394b7dab9259, cipher: chacha20-ietf-poly1305, connectspeed: 438}
-  - {name: 🇰🇷KR韩国 伟科_47C4D, type: vmess, server: cdn.kunlun-auto.com, port: 14005, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, network: tcp, connectspeed: 296}
-  - {name: JP日本 伟科 2ACA4, type: vmess, server: jp6.lianpi.xyz, port: 23234, udp: true, cipher: auto, uuid: c5c0dca9-902b-4d7f-b217-394b7dab9259, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 5734}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2_324FEF","type":"trojan","server":"assets.flareai.site","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","sni":"106-110-192-225.d.cjjd20.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_391B1D","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"type":"trojan","name":"🇯🇵JP日本 伟科_26980","server":"jp2.downloadvip.cfd","port":443,"password":"20abfcfc-c717-4ac5-8642-a0979f595474","udp":true,"skip-cert-verify":true,"sni":"download.xn--mes358a9urctx.com"}
-  - {"type":"ssr","name":"🇭🇰HK香港 伟科_36897","server":"8.217.92.57","port":48899,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"23434r4"}
-  - {name: SG新加坡 伟科 3A997, type: vmess, server: sg5.lianpi.xyz, port: 54126, udp: true, cipher: auto, uuid: c5c0dca9-902b-4d7f-b217-394b7dab9259, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 344}
-  - {name: 🇨🇳_CN_中国->🇺🇸_US_美国_3kkzui098B, type: vmess, server: 183.237.20.158, port: 40095, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 875}
-  - {"type":"ssr","name":"🇭🇰HK香港 伟科_28E8B","server":"112.33.52.63","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
-  - {name: YouTube面具人_2F3CA, type: vmess, server: 15038.kuaiyincdn.uk, port: 15038, cipher: auto, uuid: b6243a0c-4d8b-3f30-8598-a73d343a3787, alterId: 0, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 734}
-  - {name: 🇺🇸 United States 50BF02, type: vmess, server: cdn.kunlun-auto.com, port: 14010, udp: true, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 1016}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_4766D8","type":"trojan","server":"assets.flareai.site","port":13343,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true,"network":"tcp"}
-  - {name: US美国 伟科 6503AF, type: ss, server: fuck7.lianpi.xyz, port: 37829, udp: true, password: c5c0dca9-902b-4d7f-b217-394b7dab9259, cipher: chacha20-ietf-poly1305, connectspeed: 437}
-  - {name: US美国 伟科 6460B4, type: ss, server: fuck5.lianpi.xyz, port: 59019, udp: true, password: c5c0dca9-902b-4d7f-b217-394b7dab9259, cipher: chacha20-ietf-poly1305, connectspeed: 469}
-  - {name: 🇭🇰_HK_香港_3_3859E6, type: trojan, server: awsjp2.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, network: tcp, connectspeed: 1391}
-  - {name: 🇭🇰_HK_香港_2_35B0C5, type: trojan, server: awshk1.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, network: tcp, connectspeed: 54031}
-  - {"type":"ss","name":"🇯🇵JP日本 伟科_567E3","server":"free.themars.top","port":32102,"cipher":"chacha20-ietf-poly1305","password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2"}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_206831","server":"23.224.15.181","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {name: 🇺🇸美国【YouTube-由零開始】_270144, type: vmess, server: 140.99.94.42, port: 51338, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 422}
-  - {name: 🇫🇷 France 03C73F, type: vmess, server: cdn.kunlun-auto.com, port: 14014, udp: true, cipher: auto, uuid: f1fec4d9-18fb-3566-b0a1-c0bdce9579d2, alterId: 0, tls: false, skip-cert-verify: true, connectspeed: 281}
-  - {name: SSRSUB-V34-付费推荐dlj.tf/ssrsubB4D0, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 台湾18|twE381, server: 1.tw-18.tly04.com, port: 10000, type: ss, cipher: aes-256-gcm, password: dP5lX1DbnSmPf9uL, udp: true}
-  - {name: 🇸🇬SG新加坡 伟科_4E9C2, type: ssr, server: sg2.vfun.icu, port: 443, password: vyunme, cipher: aes-256-cfb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, connectspeed: 2000}
-  - {"type":"trojan","name":"🇸🇬SG新加坡 伟科_1DD10","server":"fscsg.fscloud123456789.com","port":443,"password":"0ac1a0a8-2a02-4ec8-acbe-704a13a471ab","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵JP日本 伟科_42B3C","server":"fscjp.fscloud123456789.com","port":443,"password":"0ac1a0a8-2a02-4ec8-acbe-704a13a471ab","udp":true,"skip-cert-verify":true}
-  - {name: SG新加坡 伟科 116723, type: ss, server: sg1.lianpi.xyz, port: 56138, udp: true, password: c5c0dca9-902b-4d7f-b217-394b7dab9259, cipher: chacha20-ietf-poly1305, connectspeed: 562}
   - {name: SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: SG新加坡 伟科 1026DB, type: ss, server: sg3.lianpi.xyz, port: 64578, udp: true, password: c5c0dca9-902b-4d7f-b217-394b7dab9259, cipher: chacha20-ietf-poly1305, connectspeed: 594}
-  - {"name":"🇺🇸_US_美国_4_7D04E","type":"vmess","server":"23.224.15.181","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"none"}
-  - {name: CN_FreeNode.me_1140ADC, type: ss, server: ahcm.v-too.cloud, port: 10259, password: 0afcc41c-8a1a-4229-82d9-c483b48d5389, cipher: chacha20-ietf-poly1305, connectspeed: 4579}
+  - {"name":"🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7","type":"trojan","server":"us2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇹🇼TW台湾 伟科_12453","server":"fsctw.fscloud123456789.com","port":443,"password":"0ac1a0a8-2a02-4ec8-acbe-704a13a471ab","udp":true,"skip-cert-verify":true}
+  - {name: RU_1705F5, server: kaizen-ru-2.mielink-dns2.com, port: 443, type: trojan, password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink, sni: paydiu.com, skip-cert-verify: false}
   - {"type":"trojan","name":"🇰🇷KR韩国 伟科_2FF76","server":"fsckr.fscloud123456789.com","port":443,"password":"0ac1a0a8-2a02-4ec8-acbe-704a13a471ab","udp":true,"skip-cert-verify":true}
-  - {"name":"🇮🇱_IL_以色列->🇺🇸_US_美国_2_kkzui26FEC","type":"trojan","server":"us2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇱以色列【YouTube-由零開始】_26131","type":"trojan","server":"us3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {name: 🇭🇰HK香港 伟科_1706C6, type: trojan, server: awshk1.gsjc.cfd, port: 443, udp: true, password: 60454f67-7e28-4ddd-855f-e8216dfedf5a, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, connectspeed: 48844}
-  - {"name":"🇷🇺俄罗斯联邦【YouTube-由零開始】_2CFD8","type":"vmess","server":"185.133.40.192","port":35059,"cipher":"auto","uuid":"8d78c2a8-acaa-467d-9234-d2606624506d","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_2CFAD","type":"vmess","server":"ieplhk.lanyunshi.top","port":51004,"cipher":"auto","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":2,"tls":false,"skip-cert-verify":true,"network":""}
-  - {name: JP_FreeNode.me_3464A3, type: trojan, server: fscsg.fscloud123456789.com, port: 443, password: 6b1d487a-44c7-402d-bb9d-0e1a4f1ab313, skip-cert-verify: false, connectspeed: 2734}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_31AD4A","server":"ieplhk.lanyunshi.top","port":"51004","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(阿伟科技_21680","server":"iepl2.airtcp.vip","port":"20001","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国 伟科_12670F","server":"iepl2.airtcp.vip","port":"51002","uuid":"1a7680df-81a1-3d89-a221-db81ac4b04df","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇺🇸US美国 伟科_185FEB","server":"azjp1.downloadvip.cfd","port":443,"password":"a22d2ebe-51a8-47ab-82fa-17dcfcd2f26b","udp":true,"skip-cert-verify":true,"sni":"us1.xn--mes358acgm99l.com"}
-  - {"type":"trojan","name":"🇯🇵JP日本 伟科_66FCF","server":"jp1.downloadvip.cfd","port":443,"password":"a22d2ebe-51a8-47ab-82fa-17dcfcd2f26b","udp":true,"skip-cert-verify":true,"sni":"download.xn--mes358acgm99l.com"}
-  - {"name":"🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_344AE9","type":"trojan","server":"au3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇺🇸 United States 02268D, type: vmess, server: iepl2.airtcp.vip, port: 20001, udp: true, cipher: auto, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, tls: false, skip-cert-verify: true, connectspeed: 781}
-  - {"name":"🇺🇸_US_美国_3_403510","type":"trojan","server":"163.123.192.151","port":443,"udp":true,"password":"e317f981-8604-488a-804f-e4ef40cc22bb","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
->>>>>>> 12c763aa4713611c4cfb11fd4ef0f4e27a3480b6
+  - {"name":"🇭🇰香港【YouTube-由零開始】_15C4F","type":"trojan","server":"hk1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true}
+  - {name: IL_9CAF2, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: SG_FreeNode.me_15105FA, type: trojan, server: usajs.stablize.top, port: 443, password: 6191d59d-021c-4af1-8197-85d52c564ac4, sni: usajs.stablize.top, skip-cert-verify: false, connectspeed: 6031}
+  - {name: YouTube面具人_6E6B8, type: vmess, server: 15017.kuaiyincdn.uk, port: 15017, cipher: auto, uuid: b6243a0c-4d8b-3f30-8598-a73d343a3787, alterId: 0, tls: false, skip-cert-verify: true, network: tcp, connectspeed: 1969}
+  - {name: IL_3703DA, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {"name":"🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_2_28054F","type":"trojan","server":"au3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {name: CN_23DBF0, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2}
+  - {"name":"🇮🇱_IL_以色列->🇺🇸_US_美国_2_299C85","type":"trojan","server":"us3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223, server: au1.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-<<<<<<< HEAD
-      - "🇭🇰HK香港 伟科_6A31F"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_3_500788"
       - "🇭🇰HK香港 伟科_5585B"
+      - "🇭🇰HK香港 伟科_2C7DB"
+      - "🇭🇰HK香港 伟科_36897"
+      - "🇭🇰HK香港 伟科_6CD66"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_12B8B6"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国_3_500788"
       - "🇹🇼台湾【YouTube-由零開始】_3EF29"
-      - "🇰🇷_KR_韩国_2_48F8DD"
-      - "JP_20EF4"
-      - "🇯🇵日本【YouTube-由零開始】_1385C"
-      - "🇯🇵JP日本 伟科_66FCF"
+      - "🇭🇰HK香港 伟科_6A31F"
+      - "🇭🇰HK香港 伟科_143ADD"
+      - "HK_FreeNode.me_101D311"
+      - "🇭🇰HK香港 伟科_152304"
+      - "🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF"
       - "🇯🇵_JP_日本_42CDA4"
-      - "🇹🇼台湾【YouTube-由零開始】_299B9"
+      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC"
+      - "🇭🇰HK香港 伟科_2E7C9"
+      - "🇯🇵JP日本 伟科_66FCF"
+      - "🇯🇵日本【YouTube-由零開始】_1385C"
       - "🇯🇵JP日本 伟科_26980"
-      - "JP_1EC4A"
+      - "🇹🇼TW台湾 伟科_570B8"
       - "CN_26436A"
-      - "🇭🇰HK香港 伟科_28E8B"
-      - "🇭🇰香港【YouTube-由零開始】_260F4"
-      - "🇰🇷_KR_韩国_kkzui_413641"
-      - "TW_24F57D"
-      - "IL_20B6AD"
-      - "🇯🇵 _IL_以色列->🇯🇵_JP_日本9396"
+      - "🇸🇬SG新加坡 伟科_1E296"
       - "台湾18|twE381"
-      - "🇺🇸US美国 伟科_1942D0"
-      - "🇸🇬新加坡【YouTube-由零開始】_407A5"
+      - "🇨🇳中国【YouTube-由零開始】_1C068"
+      - "IL_20B6AD"
+      - "YouTube面具人_2F3CA"
       - "🇺🇸_US_美国_kkzui2_342D8D"
+      - "TW_24F57D"
+      - "🇭🇰香港【YouTube-由零開始】_260F4"
+      - "🇭🇰_HK_香港_2_35B0C5"
+      - "🇺🇸US美国 伟科_1942D0"
+      - "🇭🇰_HK_香港_3_3859E6"
       - "🇺🇸_US_美国_8_237B08"
-      - "🇸🇬SG新加坡 伟科_1DD10"
-      - "SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0"
+      - "VN_FreeNode.me_16675AB"
+      - "台湾2|cn-tw7E08"
+      - "🇰🇷KR韩国 伟科_16598"
+      - "🇭🇰HK香港 伟科_1706C6"
+      - "🇺🇸US美国 伟科_206831"
+      - "🇸🇬新加坡【YouTube-由零開始】_407A5"
+      - "YouTube面具人_610BF"
+      - "JP_1EC4A"
+      - "🇺🇸美国【YouTube-由零開始】_3869AB"
+      - "JP_FreeNode.me_3464A3"
+      - "🇭🇰HK香港 伟科_28E8B"
+      - "🇯🇵JP日本 伟科_42B3C"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_4B051"
       - "CN_853DD7"
-      - "🇺🇸美国【YouTube-由零開始】_3869AB"
-      - "🇭🇰HK香港 伟科_36897"
-      - "🇺🇸US美国 伟科_206831"
-      - "🇰🇷KR韩国 伟科_2FF76"
-      - "🇨🇳中国【YouTube-由零開始】_1C068"
-      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC"
-      - "IL_3703DA"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7"
-      - "🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF"
-      - "🇨🇳_CN_中国_2_47E41D"
-      - "🇺🇸US美国 伟科_4ECB6"
-      - "🇺🇸US美国(阿伟科技_21680"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_384B8D"
-      - "🇺🇸US美国 伟科_12670F"
-      - "SSRSUB-V26-付费推荐dlj.tf/ssrsub8063"
-      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_kkzui_163DFF"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_2_20DF93"
-      - "RU_1705F5"
-      - "🇺🇸US美国 伟科_31AD4A"
-      - "IL_25490A"
-      - "🇨🇳_CN_中国_kkzui_76674"
-      - "IL_9CAF2"
-      - "🇺🇸 _IL_以色列->🇺🇸_US_美国BB2D"
-      - "CN_23DBF0"
-      - "SSRSUB-V10-付费推荐dlj.tf/ssrsubBAB7"
-      - "US_1229B0"
-      - "US_21FCD0"
-      - "🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223"
-      - "🇺🇸US美国 伟科_38118"
-      - "🇺🇸 United States 017728"
-      - "🇺🇸_US_美国_3_403510"
-      - "🇩🇪_DE_德国_kkzui87367"
-=======
-      - "🇸🇬SG新加坡 伟科_1E296"
-      - "🇭🇰HK香港 伟科_5585B"
-      - "🇭🇰HK香港 伟科_2F5F8"
-      - "🇭🇰HK香港 伟科_35C5D"
-      - "🇭🇰HK香港 伟科_174CC8"
-      - "🇭🇰HK香港 伟科_19D9A7"
-      - "🇭🇰HK香港 伟科_152304"
-      - "🇭🇰HK香港 伟科_143ADD"
-      - "🇭🇰HK香港 伟科_6A31F"
-      - "SG_FreeNode.me_1135F0B"
-      - "🇨🇳 China 05B27C"
-      - "🇭🇰HK香港 伟科_2E7C9"
-      - "🇭🇰HK香港 伟科_2C7DB"
-      - "🇭🇰HK香港 伟科_6CD66"
-      - "JP日本 伟科 985DE"
-      - "🇰🇷KR韩国 伟科_47C4D"
-      - "JP日本 伟科 2ACA4"
-      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2_324FEF"
-      - "🇸🇬_SG_新加坡_391B1D"
-      - "🇯🇵JP日本 伟科_26980"
-      - "🇭🇰HK香港 伟科_36897"
-      - "SG新加坡 伟科 3A997"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_3kkzui098B"
-      - "🇭🇰HK香港 伟科_28E8B"
-      - "YouTube面具人_2F3CA"
-      - "🇺🇸 United States 50BF02"
-      - "🇨🇳_CN_中国->🇹🇼_TW_台湾_4766D8"
-      - "US美国 伟科 6503AF"
-      - "US美国 伟科 6460B4"
-      - "🇭🇰_HK_香港_3_3859E6"
-      - "🇭🇰_HK_香港_2_35B0C5"
-      - "🇯🇵JP日本 伟科_567E3"
-      - "🇺🇸US美国 伟科_206831"
-      - "🇺🇸美国【YouTube-由零開始】_270144"
-      - "🇫🇷 France 03C73F"
-      - "SSRSUB-V34-付费推荐dlj.tf/ssrsubB4D0"
-      - "台湾18|twE381"
-      - "🇸🇬SG新加坡 伟科_4E9C2"
-      - "🇸🇬SG新加坡 伟科_1DD10"
-      - "🇯🇵JP日本 伟科_42B3C"
-      - "SG新加坡 伟科 116723"
       - "SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0"
-      - "SG新加坡 伟科 1026DB"
-      - "🇺🇸_US_美国_4_7D04E"
-      - "CN_FreeNode.me_1140ADC"
+      - "🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7"
+      - "🇹🇼TW台湾 伟科_12453"
+      - "RU_1705F5"
       - "🇰🇷KR韩国 伟科_2FF76"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_2_kkzui26FEC"
-      - "🇮🇱以色列【YouTube-由零開始】_26131"
-      - "🇭🇰HK香港 伟科_1706C6"
-      - "🇷🇺俄罗斯联邦【YouTube-由零開始】_2CFD8"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_2CFAD"
-      - "JP_FreeNode.me_3464A3"
-      - "🇺🇸US美国 伟科_31AD4A"
-      - "🇺🇸US美国(阿伟科技_21680"
-      - "🇺🇸US美国 伟科_12670F"
-      - "🇺🇸US美国 伟科_185FEB"
-      - "🇯🇵JP日本 伟科_66FCF"
-      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_344AE9"
-      - "🇺🇸 United States 02268D"
-      - "🇺🇸_US_美国_3_403510"
->>>>>>> 12c763aa4713611c4cfb11fd4ef0f4e27a3480b6
+      - "🇭🇰香港【YouTube-由零開始】_15C4F"
+      - "IL_9CAF2"
+      - "SG_FreeNode.me_15105FA"
+      - "YouTube面具人_6E6B8"
+      - "IL_3703DA"
+      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_2_28054F"
+      - "CN_23DBF0"
+      - "🇮🇱_IL_以色列->🇺🇸_US_美国_2_299C85"
+      - "🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.v2ex.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-<<<<<<< HEAD
-      - "🇭🇰HK香港 伟科_6A31F"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_3_500788"
       - "🇭🇰HK香港 伟科_5585B"
+      - "🇭🇰HK香港 伟科_2C7DB"
+      - "🇭🇰HK香港 伟科_36897"
+      - "🇭🇰HK香港 伟科_6CD66"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_12B8B6"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国_3_500788"
       - "🇹🇼台湾【YouTube-由零開始】_3EF29"
-      - "🇰🇷_KR_韩国_2_48F8DD"
-      - "JP_20EF4"
-      - "🇯🇵日本【YouTube-由零開始】_1385C"
-      - "🇯🇵JP日本 伟科_66FCF"
+      - "🇭🇰HK香港 伟科_6A31F"
+      - "🇭🇰HK香港 伟科_143ADD"
+      - "HK_FreeNode.me_101D311"
+      - "🇭🇰HK香港 伟科_152304"
+      - "🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF"
       - "🇯🇵_JP_日本_42CDA4"
-      - "🇹🇼台湾【YouTube-由零開始】_299B9"
+      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC"
+      - "🇭🇰HK香港 伟科_2E7C9"
+      - "🇯🇵JP日本 伟科_66FCF"
+      - "🇯🇵日本【YouTube-由零開始】_1385C"
       - "🇯🇵JP日本 伟科_26980"
-      - "JP_1EC4A"
+      - "🇹🇼TW台湾 伟科_570B8"
       - "CN_26436A"
-      - "🇭🇰HK香港 伟科_28E8B"
-      - "🇭🇰香港【YouTube-由零開始】_260F4"
-      - "🇰🇷_KR_韩国_kkzui_413641"
-      - "TW_24F57D"
-      - "IL_20B6AD"
-      - "🇯🇵 _IL_以色列->🇯🇵_JP_日本9396"
+      - "🇸🇬SG新加坡 伟科_1E296"
       - "台湾18|twE381"
-      - "🇺🇸US美国 伟科_1942D0"
-      - "🇸🇬新加坡【YouTube-由零開始】_407A5"
+      - "🇨🇳中国【YouTube-由零開始】_1C068"
+      - "IL_20B6AD"
+      - "YouTube面具人_2F3CA"
       - "🇺🇸_US_美国_kkzui2_342D8D"
+      - "TW_24F57D"
+      - "🇭🇰香港【YouTube-由零開始】_260F4"
+      - "🇭🇰_HK_香港_2_35B0C5"
+      - "🇺🇸US美国 伟科_1942D0"
+      - "🇭🇰_HK_香港_3_3859E6"
       - "🇺🇸_US_美国_8_237B08"
-      - "🇸🇬SG新加坡 伟科_1DD10"
-      - "SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0"
+      - "VN_FreeNode.me_16675AB"
+      - "台湾2|cn-tw7E08"
+      - "🇰🇷KR韩国 伟科_16598"
+      - "🇭🇰HK香港 伟科_1706C6"
+      - "🇺🇸US美国 伟科_206831"
+      - "🇸🇬新加坡【YouTube-由零開始】_407A5"
+      - "YouTube面具人_610BF"
+      - "JP_1EC4A"
+      - "🇺🇸美国【YouTube-由零開始】_3869AB"
+      - "JP_FreeNode.me_3464A3"
+      - "🇭🇰HK香港 伟科_28E8B"
+      - "🇯🇵JP日本 伟科_42B3C"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_4B051"
       - "CN_853DD7"
-      - "🇺🇸美国【YouTube-由零開始】_3869AB"
-      - "🇭🇰HK香港 伟科_36897"
-      - "🇺🇸US美国 伟科_206831"
-      - "🇰🇷KR韩国 伟科_2FF76"
-      - "🇨🇳中国【YouTube-由零開始】_1C068"
-      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC"
-      - "IL_3703DA"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7"
-      - "🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF"
-      - "🇨🇳_CN_中国_2_47E41D"
-      - "🇺🇸US美国 伟科_4ECB6"
-      - "🇺🇸US美国(阿伟科技_21680"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_384B8D"
-      - "🇺🇸US美国 伟科_12670F"
-      - "SSRSUB-V26-付费推荐dlj.tf/ssrsub8063"
-      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_kkzui_163DFF"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_2_20DF93"
-      - "RU_1705F5"
-      - "🇺🇸US美国 伟科_31AD4A"
-      - "IL_25490A"
-      - "🇨🇳_CN_中国_kkzui_76674"
-      - "IL_9CAF2"
-      - "🇺🇸 _IL_以色列->🇺🇸_US_美国BB2D"
-      - "CN_23DBF0"
-      - "SSRSUB-V10-付费推荐dlj.tf/ssrsubBAB7"
-      - "US_1229B0"
-      - "US_21FCD0"
-      - "🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223"
-      - "🇺🇸US美国 伟科_38118"
-      - "🇺🇸 United States 017728"
-      - "🇺🇸_US_美国_3_403510"
-      - "🇩🇪_DE_德国_kkzui87367"
-=======
-      - "🇸🇬SG新加坡 伟科_1E296"
-      - "🇭🇰HK香港 伟科_5585B"
-      - "🇭🇰HK香港 伟科_2F5F8"
-      - "🇭🇰HK香港 伟科_35C5D"
-      - "🇭🇰HK香港 伟科_174CC8"
-      - "🇭🇰HK香港 伟科_19D9A7"
-      - "🇭🇰HK香港 伟科_152304"
-      - "🇭🇰HK香港 伟科_143ADD"
-      - "🇭🇰HK香港 伟科_6A31F"
-      - "SG_FreeNode.me_1135F0B"
-      - "🇨🇳 China 05B27C"
-      - "🇭🇰HK香港 伟科_2E7C9"
-      - "🇭🇰HK香港 伟科_2C7DB"
-      - "🇭🇰HK香港 伟科_6CD66"
-      - "JP日本 伟科 985DE"
-      - "🇰🇷KR韩国 伟科_47C4D"
-      - "JP日本 伟科 2ACA4"
-      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2_324FEF"
-      - "🇸🇬_SG_新加坡_391B1D"
-      - "🇯🇵JP日本 伟科_26980"
-      - "🇭🇰HK香港 伟科_36897"
-      - "SG新加坡 伟科 3A997"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_3kkzui098B"
-      - "🇭🇰HK香港 伟科_28E8B"
-      - "YouTube面具人_2F3CA"
-      - "🇺🇸 United States 50BF02"
-      - "🇨🇳_CN_中国->🇹🇼_TW_台湾_4766D8"
-      - "US美国 伟科 6503AF"
-      - "US美国 伟科 6460B4"
-      - "🇭🇰_HK_香港_3_3859E6"
-      - "🇭🇰_HK_香港_2_35B0C5"
-      - "🇯🇵JP日本 伟科_567E3"
-      - "🇺🇸US美国 伟科_206831"
-      - "🇺🇸美国【YouTube-由零開始】_270144"
-      - "🇫🇷 France 03C73F"
-      - "SSRSUB-V34-付费推荐dlj.tf/ssrsubB4D0"
-      - "台湾18|twE381"
-      - "🇸🇬SG新加坡 伟科_4E9C2"
-      - "🇸🇬SG新加坡 伟科_1DD10"
-      - "🇯🇵JP日本 伟科_42B3C"
-      - "SG新加坡 伟科 116723"
       - "SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0"
-      - "SG新加坡 伟科 1026DB"
-      - "🇺🇸_US_美国_4_7D04E"
-      - "CN_FreeNode.me_1140ADC"
+      - "🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7"
+      - "🇹🇼TW台湾 伟科_12453"
+      - "RU_1705F5"
       - "🇰🇷KR韩国 伟科_2FF76"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_2_kkzui26FEC"
-      - "🇮🇱以色列【YouTube-由零開始】_26131"
-      - "🇭🇰HK香港 伟科_1706C6"
-      - "🇷🇺俄罗斯联邦【YouTube-由零開始】_2CFD8"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_2CFAD"
-      - "JP_FreeNode.me_3464A3"
-      - "🇺🇸US美国 伟科_31AD4A"
-      - "🇺🇸US美国(阿伟科技_21680"
-      - "🇺🇸US美国 伟科_12670F"
-      - "🇺🇸US美国 伟科_185FEB"
-      - "🇯🇵JP日本 伟科_66FCF"
-      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_344AE9"
-      - "🇺🇸 United States 02268D"
-      - "🇺🇸_US_美国_3_403510"
->>>>>>> 12c763aa4713611c4cfb11fd4ef0f4e27a3480b6
+      - "🇭🇰香港【YouTube-由零開始】_15C4F"
+      - "IL_9CAF2"
+      - "SG_FreeNode.me_15105FA"
+      - "YouTube面具人_6E6B8"
+      - "IL_3703DA"
+      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_2_28054F"
+      - "CN_23DBF0"
+      - "🇮🇱_IL_以色列->🇺🇸_US_美国_2_299C85"
+      - "🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-<<<<<<< HEAD
-      - "🇭🇰HK香港 伟科_6A31F"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_3_500788"
       - "🇭🇰HK香港 伟科_5585B"
+      - "🇭🇰HK香港 伟科_2C7DB"
+      - "🇭🇰HK香港 伟科_36897"
+      - "🇭🇰HK香港 伟科_6CD66"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_12B8B6"
+      - "🇨🇳_CN_中国->🇺🇸_US_美国_3_500788"
       - "🇹🇼台湾【YouTube-由零開始】_3EF29"
-      - "🇰🇷_KR_韩国_2_48F8DD"
-      - "JP_20EF4"
-      - "🇯🇵日本【YouTube-由零開始】_1385C"
-      - "🇯🇵JP日本 伟科_66FCF"
+      - "🇭🇰HK香港 伟科_6A31F"
+      - "🇭🇰HK香港 伟科_143ADD"
+      - "HK_FreeNode.me_101D311"
+      - "🇭🇰HK香港 伟科_152304"
+      - "🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF"
       - "🇯🇵_JP_日本_42CDA4"
-      - "🇹🇼台湾【YouTube-由零開始】_299B9"
+      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC"
+      - "🇭🇰HK香港 伟科_2E7C9"
+      - "🇯🇵JP日本 伟科_66FCF"
+      - "🇯🇵日本【YouTube-由零開始】_1385C"
       - "🇯🇵JP日本 伟科_26980"
-      - "JP_1EC4A"
+      - "🇹🇼TW台湾 伟科_570B8"
       - "CN_26436A"
-      - "🇭🇰HK香港 伟科_28E8B"
-      - "🇭🇰香港【YouTube-由零開始】_260F4"
-      - "🇰🇷_KR_韩国_kkzui_413641"
-      - "TW_24F57D"
-      - "IL_20B6AD"
-      - "🇯🇵 _IL_以色列->🇯🇵_JP_日本9396"
+      - "🇸🇬SG新加坡 伟科_1E296"
       - "台湾18|twE381"
-      - "🇺🇸US美国 伟科_1942D0"
-      - "🇸🇬新加坡【YouTube-由零開始】_407A5"
+      - "🇨🇳中国【YouTube-由零開始】_1C068"
+      - "IL_20B6AD"
+      - "YouTube面具人_2F3CA"
       - "🇺🇸_US_美国_kkzui2_342D8D"
+      - "TW_24F57D"
+      - "🇭🇰香港【YouTube-由零開始】_260F4"
+      - "🇭🇰_HK_香港_2_35B0C5"
+      - "🇺🇸US美国 伟科_1942D0"
+      - "🇭🇰_HK_香港_3_3859E6"
       - "🇺🇸_US_美国_8_237B08"
-      - "🇸🇬SG新加坡 伟科_1DD10"
-      - "SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0"
+      - "VN_FreeNode.me_16675AB"
+      - "台湾2|cn-tw7E08"
+      - "🇰🇷KR韩国 伟科_16598"
+      - "🇭🇰HK香港 伟科_1706C6"
+      - "🇺🇸US美国 伟科_206831"
+      - "🇸🇬新加坡【YouTube-由零開始】_407A5"
+      - "YouTube面具人_610BF"
+      - "JP_1EC4A"
+      - "🇺🇸美国【YouTube-由零開始】_3869AB"
+      - "JP_FreeNode.me_3464A3"
+      - "🇭🇰HK香港 伟科_28E8B"
+      - "🇯🇵JP日本 伟科_42B3C"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_4B051"
       - "CN_853DD7"
-      - "🇺🇸美国【YouTube-由零開始】_3869AB"
-      - "🇭🇰HK香港 伟科_36897"
-      - "🇺🇸US美国 伟科_206831"
-      - "🇰🇷KR韩国 伟科_2FF76"
-      - "🇨🇳中国【YouTube-由零開始】_1C068"
-      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2278CC"
-      - "IL_3703DA"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7"
-      - "🇭🇰 _CN_中国->🇭🇰_HK_香港 209DF"
-      - "🇨🇳_CN_中国_2_47E41D"
-      - "🇺🇸US美国 伟科_4ECB6"
-      - "🇺🇸US美国(阿伟科技_21680"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_384B8D"
-      - "🇺🇸US美国 伟科_12670F"
-      - "SSRSUB-V26-付费推荐dlj.tf/ssrsub8063"
-      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_kkzui_163DFF"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_2_20DF93"
-      - "RU_1705F5"
-      - "🇺🇸US美国 伟科_31AD4A"
-      - "IL_25490A"
-      - "🇨🇳_CN_中国_kkzui_76674"
-      - "IL_9CAF2"
-      - "🇺🇸 _IL_以色列->🇺🇸_US_美国BB2D"
-      - "CN_23DBF0"
-      - "SSRSUB-V10-付费推荐dlj.tf/ssrsubBAB7"
-      - "US_1229B0"
-      - "US_21FCD0"
-      - "🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223"
-      - "🇺🇸US美国 伟科_38118"
-      - "🇺🇸 United States 017728"
-      - "🇺🇸_US_美国_3_403510"
-      - "🇩🇪_DE_德国_kkzui87367"
-=======
-      - "🇸🇬SG新加坡 伟科_1E296"
-      - "🇭🇰HK香港 伟科_5585B"
-      - "🇭🇰HK香港 伟科_2F5F8"
-      - "🇭🇰HK香港 伟科_35C5D"
-      - "🇭🇰HK香港 伟科_174CC8"
-      - "🇭🇰HK香港 伟科_19D9A7"
-      - "🇭🇰HK香港 伟科_152304"
-      - "🇭🇰HK香港 伟科_143ADD"
-      - "🇭🇰HK香港 伟科_6A31F"
-      - "SG_FreeNode.me_1135F0B"
-      - "🇨🇳 China 05B27C"
-      - "🇭🇰HK香港 伟科_2E7C9"
-      - "🇭🇰HK香港 伟科_2C7DB"
-      - "🇭🇰HK香港 伟科_6CD66"
-      - "JP日本 伟科 985DE"
-      - "🇰🇷KR韩国 伟科_47C4D"
-      - "JP日本 伟科 2ACA4"
-      - "🇨🇳_CN_中国->🇭🇰_HK_香港_2_324FEF"
-      - "🇸🇬_SG_新加坡_391B1D"
-      - "🇯🇵JP日本 伟科_26980"
-      - "🇭🇰HK香港 伟科_36897"
-      - "SG新加坡 伟科 3A997"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_3kkzui098B"
-      - "🇭🇰HK香港 伟科_28E8B"
-      - "YouTube面具人_2F3CA"
-      - "🇺🇸 United States 50BF02"
-      - "🇨🇳_CN_中国->🇹🇼_TW_台湾_4766D8"
-      - "US美国 伟科 6503AF"
-      - "US美国 伟科 6460B4"
-      - "🇭🇰_HK_香港_3_3859E6"
-      - "🇭🇰_HK_香港_2_35B0C5"
-      - "🇯🇵JP日本 伟科_567E3"
-      - "🇺🇸US美国 伟科_206831"
-      - "🇺🇸美国【YouTube-由零開始】_270144"
-      - "🇫🇷 France 03C73F"
-      - "SSRSUB-V34-付费推荐dlj.tf/ssrsubB4D0"
-      - "台湾18|twE381"
-      - "🇸🇬SG新加坡 伟科_4E9C2"
-      - "🇸🇬SG新加坡 伟科_1DD10"
-      - "🇯🇵JP日本 伟科_42B3C"
-      - "SG新加坡 伟科 116723"
       - "SSRSUB-V17-付费推荐dlj.tf/ssrsub0CA0"
-      - "SG新加坡 伟科 1026DB"
-      - "🇺🇸_US_美国_4_7D04E"
-      - "CN_FreeNode.me_1140ADC"
+      - "🇮🇱_IL_以色列->🇺🇸_US_美国_kkzui_517C7"
+      - "🇹🇼TW台湾 伟科_12453"
+      - "RU_1705F5"
       - "🇰🇷KR韩国 伟科_2FF76"
-      - "🇮🇱_IL_以色列->🇺🇸_US_美国_2_kkzui26FEC"
-      - "🇮🇱以色列【YouTube-由零開始】_26131"
-      - "🇭🇰HK香港 伟科_1706C6"
-      - "🇷🇺俄罗斯联邦【YouTube-由零開始】_2CFD8"
-      - "🇨🇳_CN_中国->🇺🇸_US_美国_kkzui_2CFAD"
-      - "JP_FreeNode.me_3464A3"
-      - "🇺🇸US美国 伟科_31AD4A"
-      - "🇺🇸US美国(阿伟科技_21680"
-      - "🇺🇸US美国 伟科_12670F"
-      - "🇺🇸US美国 伟科_185FEB"
-      - "🇯🇵JP日本 伟科_66FCF"
-      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_344AE9"
-      - "🇺🇸 United States 02268D"
-      - "🇺🇸_US_美国_3_403510"
->>>>>>> 12c763aa4713611c4cfb11fd4ef0f4e27a3480b6
+      - "🇭🇰香港【YouTube-由零開始】_15C4F"
+      - "IL_9CAF2"
+      - "SG_FreeNode.me_15105FA"
+      - "YouTube面具人_6E6B8"
+      - "IL_3703DA"
+      - "🇮🇱_IL_以色列->🇦🇺_AU_澳大利亚_2_28054F"
+      - "CN_23DBF0"
+      - "🇮🇱_IL_以色列->🇺🇸_US_美国_2_299C85"
+      - "🇦🇺 _IL_以色列->🇦🇺_AU_澳大利亚3223"
   - name: 📲 电报信息
     type: select
     proxies:
