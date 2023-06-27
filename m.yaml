@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：
 # 客户端：Clash
-# 创建时间：2023/6/27 8:51:09
+# 创建时间：2023/6/27 22:48:46
 # 使用模版：V2RaySE 默认模版
 # 节点数量：300
 ####################################
@@ -253,7 +253,6 @@ proxies:
   - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_378A3C","type":"vmess","server":"cn-guangzhou.applebench.tech","port":41502,"cipher":"auto","uuid":"7e319f7a-4c47-4606-8008-ce6c92634dd8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"GB_分享日记_2F7B4","type":"ss","server":"51.132.13.37","port":36238,"password":"3Diipf4YghZG06rzdRO6SH","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵日本【YouTube-由零開始】_2F45D","type":"ss","server":"13.230.137.173","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_1D915","type":"vmess","server":"107.148.192.155","port":49924,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"type":"vmess","name":"🇩🇪DE德国 伟科_62370","server":"51.195.125.31","port":"54902","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"name":"🇫🇷法国【YouTube-由零開始】_817C2","type":"vmess","server":"14.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top","port":80,"cipher":"auto","uuid":"6fe85b60-cda0-448e-b86c-4584d4e8945a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top"}}}
   - {name: 🇺🇸 _US_美国_35C0AD, server: 45.58.154.135, port: 51409, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -266,6 +265,7 @@ proxies:
   - {name: 🇨🇿 _CZ_捷克_104F59, server: 195.133.53.253, port: 443, type: vmess, uuid: 04b38baf-5b78-4937-b27a-83057b08b776, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.133.53.253}}}
   - {"name":"🇺🇸美国【YouTube-由零開始】_9AA9E","type":"vmess","server":"170.178.162.137","port":51217,"cipher":"auto","uuid":"28dd6c26-05a5-4bba-8a5d-052b70ac13b2","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇨🇳中国【YouTube-由零開始】_54D01","type":"vmess","server":"47.kccic2pa.xyz","port":50047,"cipher":"auto","uuid":"7271b7c6-f38e-45b8-8998-5a068d3b3086","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇪SE瑞典 伟科F907","server":"37.120.209.125","port":"49982","uuid":"dc0cf22d-e35c-4b77-8924-977f6844909b","alterId":"64","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -358,7 +358,6 @@ proxy-groups:
       - "🇨🇳_CN_中国->🇭🇰_HK_香港_378A3C"
       - "GB_分享日记_2F7B4"
       - "🇯🇵日本【YouTube-由零開始】_2F45D"
-      - "🇺🇸美国【YouTube-由零開始】_1D915"
       - "🇩🇪DE德国 伟科_62370"
       - "🇫🇷法国【YouTube-由零開始】_817C2"
       - "🇺🇸 _US_美国_35C0AD"
@@ -371,6 +370,7 @@ proxy-groups:
       - "🇨🇿 _CZ_捷克_104F59"
       - "🇺🇸美国【YouTube-由零開始】_9AA9E"
       - "🇨🇳中国【YouTube-由零開始】_54D01"
+      - "🇸🇪SE瑞典 伟科F907"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.v2ex.com/generate_204
@@ -464,7 +464,6 @@ proxy-groups:
       - "🇨🇳_CN_中国->🇭🇰_HK_香港_378A3C"
       - "GB_分享日记_2F7B4"
       - "🇯🇵日本【YouTube-由零開始】_2F45D"
-      - "🇺🇸美国【YouTube-由零開始】_1D915"
       - "🇩🇪DE德国 伟科_62370"
       - "🇫🇷法国【YouTube-由零開始】_817C2"
       - "🇺🇸 _US_美国_35C0AD"
@@ -477,6 +476,7 @@ proxy-groups:
       - "🇨🇿 _CZ_捷克_104F59"
       - "🇺🇸美国【YouTube-由零開始】_9AA9E"
       - "🇨🇳中国【YouTube-由零開始】_54D01"
+      - "🇸🇪SE瑞典 伟科F907"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -570,7 +570,6 @@ proxy-groups:
       - "🇨🇳_CN_中国->🇭🇰_HK_香港_378A3C"
       - "GB_分享日记_2F7B4"
       - "🇯🇵日本【YouTube-由零開始】_2F45D"
-      - "🇺🇸美国【YouTube-由零開始】_1D915"
       - "🇩🇪DE德国 伟科_62370"
       - "🇫🇷法国【YouTube-由零開始】_817C2"
       - "🇺🇸 _US_美国_35C0AD"
@@ -583,6 +582,7 @@ proxy-groups:
       - "🇨🇿 _CZ_捷克_104F59"
       - "🇺🇸美国【YouTube-由零開始】_9AA9E"
       - "🇨🇳中国【YouTube-由零開始】_54D01"
+      - "🇸🇪SE瑞典 伟科F907"
   - name: 📲 电报信息
     type: select
     proxies:
