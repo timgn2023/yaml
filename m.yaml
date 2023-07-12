@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：
 # 客户端：Clash
-# 创建时间：2023/7/12 18:12:26
+# 创建时间：2023/7/13 0:04:01
 # 使用模版：V2RaySE 默认模版
 # 节点数量：300
 ####################################
@@ -166,423 +166,423 @@ dns:
       - +.googletagmanager.com
       - +.googletagservices.com
 proxies:
-  - {name: 🇯🇵 _JP_日本6011, server: 3.112.29.230, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇯🇵 _JP_日本 37817, server: 18.183.217.240, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇰🇷 _KR_韩国9989, server: 43.201.60.244, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇰🇷 _KR_韩国 36C47, server: 3.35.230.64, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {"name":"🇰🇷韩国【YouTube-由零開始】_27BE6","type":"ss","server":"43.202.55.210","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {name: 🇰🇷 _KR_韩国35E5, server: 43.202.64.174, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇰🇷 _KR_韩国 29B2A, server: 43.202.63.143, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇰🇷 _KR_韩国 28B60, server: 43.201.72.181, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_705945","type":"vmess","server":"192.74.234.150","port":42329,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_15AB16","type":"vmess","server":"142.4.100.42","port":45009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_588DC4","type":"vmess","server":"142.4.99.90","port":43379,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_kkzui_87887","type":"ss","server":"104.243.30.252","port":246,"password":"bwhskrskr03","cipher":"aes-256-cfb"}
-  - {name: 🇺🇸 _US_美国 167B3C, server: 142.4.110.24, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸_US_美国_kkzui0_28D5B0","type":"vmess","server":"192.74.229.198","port":51592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_380A91","type":"vmess","server":"142.4.99.77","port":43379,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 7A51B, server: 142.4.121.226, port: 45009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸_US_美国_8_kkzui51FB7","type":"vmess","server":"137.175.11.145","port":33002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸_US_美国_28_434520","type":"vmess","server":"142.4.126.46","port":44392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇺🇸 _US_美国 31B16F, server: 142.4.97.71, port: 44942, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_6C3F0","type":"vmess","server":"108.186.4.1","port":42382,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 105D8A, server: 142.4.106.242, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_130F4D7","type":"vmess","server":"107.148.194.242","port":55504,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_646A3","type":"vmess","server":"198.2.203.57","port":44672,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2;kkzui_31E0C2","type":"vmess","server":"142.4.99.91","port":43379,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇺🇸 _US_美国 18D3EC, server: 192.74.229.199, port: 51592, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_11A932","type":"vmess","server":"142.4.121.227","port":45009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_27_42ED04","type":"vmess","server":"142.4.110.23","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_10B2D2","type":"vmess","server":"107.148.192.155","port":49924,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_972EC4","type":"vmess","server":"137.175.18.87","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_6_kkzui2050B","type":"vmess","server":"142.4.106.242","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_29_456069","type":"vmess","server":"142.4.99.89","port":43379,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇺🇸 _US_美国 54A5C, server: 137.175.11.147, port: 33002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇨🇳 CN_分享日记_1035A","type":"vmess","server":"221.131.165.180","port":20001,"cipher":"auto","uuid":"1b35440a-1309-339b-9dd3-ff90ff887d76","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/soda","headers":{"host":"221.131.165.180"}}}
   - {name: 🇺🇸 _US_美国 23BD6D, server: 137.175.1.13, port: 53403, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 15F68C, server: 142.4.99.91, port: 43379, client-fingerprint: chrome, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_577813","type":"vmess","server":"142.4.106.82","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国_828936, server: 137.175.1.1, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {"name":"🇺🇸_US_美国_kkzui4_20489C","type":"vmess","server":"142.4.97.76","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸 US_分享日记_198E632","type":"vmess","server":"45.58.186.91","port":51140,"cipher":"auto","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸 US_分享日记_11D7CF","type":"vmess","server":"108.186.192.228","port":45502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 41D2D, server: 142.4.126.46, port: 44392, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 13C234, server: 198.2.203.60, port: 44672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸_US_美国_27_42ED04","type":"vmess","server":"142.4.110.23","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇺🇸 _US_美国_77047A, server: 142.4.109.68, port: 46672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_160B21","type":"vmess","server":"140.99.59.227","port":55512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸 US_分享日记_112240","type":"vmess","server":"192.74.243.60","port":50246,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_1702142","type":"vmess","server":"107.167.7.12","port":41654,"cipher":"auto","uuid":"bdee202c-8fae-441f-a588-7bc4d3887019","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_24DE9D","type":"vmess","server":"108.186.192.232","port":45502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_407647","type":"vmess","server":"142.4.98.18","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_316422","type":"vmess","server":"142.4.110.24","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2kkzui_3051BA","type":"vmess","server":"142.4.100.44","port":45009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_kkzui2_2399CB","type":"vmess","server":"142.4.112.14","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸_US_美国_9_kkzui66DD5","type":"vmess","server":"198.2.203.60","port":44672,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇺🇸 _US_美国 212EFA, server: 108.186.4.1, port: 42382, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 111AE5, server: 142.4.112.14, port: 51091, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_9C7E5","type":"vmess","server":"142.4.110.25","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_8BEFC","type":"vmess","server":"142.4.118.227","port":48902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_696058","type":"vmess","server":"142.4.99.93","port":43379,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_231AA4","type":"vmess","server":"23.225.211.20","port":42941,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: SSRSUB-V19-付费推荐dlj.tf/ssrsub6B65, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {"name":"🇺🇸 US_分享日记_307C2F","type":"vmess","server":"192.74.243.33","port":50246,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_44807F","type":"vmess","server":"107.167.12.30","port":41707,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_1726DC","type":"vmess","server":"142.4.97.71","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 28145, server: 142.4.110.25, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_481338","type":"vmess","server":"142.4.126.42","port":44392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 12E3A3, server: 137.175.52.19, port: 33002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸_US_美国_20_3880C9","type":"vmess","server":"140.99.149.45","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸 US_分享日记_1606E3","type":"vmess","server":"192.74.243.34","port":50246,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_11950D4","type":"vmess","server":"142.4.112.2","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_38B537","type":"vmess","server":"64.32.4.42","port":43166,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_94F3E5","type":"vmess","server":"108.186.116.185","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 20FEFF, server: 142.4.112.26, port: 51091, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 6B26F, server: 107.148.192.155, port: 49924, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_118611B","type":"vmess","server":"140.99.59.230","port":55512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_7_kkzui3B767","type":"vmess","server":"142.4.126.67","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_27B237","type":"vmess","server":"172.247.148.89","port":53302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_9_kkzui..com661B0","type":"vmess","server":"142.4.126.45","port":44392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇺🇸 _US_美国 225F7A, server: 142.4.126.45, port: 44392, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 80CF7, server: 142.4.100.42, port: 45009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸_US_美国_kkzui0_2036E0","type":"vmess","server":"142.4.100.41","port":45009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {name: 🇺🇸 _US_美国B54C, server: 142.4.121.227, port: 45009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {"name":"🇺🇸 US_分享日记_188938E","type":"vmess","server":"107.167.29.93","port":45585,"cipher":"auto","uuid":"465dec1a-e09b-4bb6-9905-70f75d6035c8","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_875C72","type":"vmess","server":"142.4.126.72","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 16551D, server: 140.99.149.45, port: 53082, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_126896","type":"vmess","server":"142.4.112.26","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_12539A3","type":"vmess","server":"192.74.228.163","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_37F1F3","type":"vmess","server":"140.99.149.45","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_1424D3","type":"vmess","server":"192.74.229.199","port":51592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国_35423A, server: 142.4.100.44, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_1726DC","type":"vmess","server":"142.4.97.71","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_577813","type":"vmess","server":"142.4.106.82","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 11848D, server: 142.4.126.48, port: 44392, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_149EF00","type":"vmess","server":"108.186.192.229","port":45502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国_137D507, server: 198.2.218.206, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_22049E","type":"vmess","server":"142.4.126.70","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_61D86F","type":"vmess","server":"137.175.54.211","port":50502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_US_美国_kkzui0_28D5B0","type":"vmess","server":"192.74.229.198","port":51592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_kkzui4_2665CC","type":"vmess","server":"108.186.192.228","port":45502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {name: 🇺🇸 _US_美国 28145, server: 142.4.110.25, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 6D403, server: 192.74.243.34, port: 50246, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_8317A0","type":"vmess","server":"108.186.4.3","port":42382,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 11EF68, server: 142.4.126.67, port: 52212, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_71521C","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 89DCB, server: 142.4.126.47, port: 44392, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_12143A","type":"vmess","server":"137.175.1.1","port":53403,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_12ABB4","type":"vmess","server":"140.99.57.23","port":41912,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_604B8C","type":"vmess","server":"108.186.116.175","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_96419","type":"vmess","server":"137.175.1.13","port":53403,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {name: 🇺🇸 _US_美国 181A17, server: 54.187.208.118, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {"name":"🇺🇸_US_美国_;kkzui7_4012D8","type":"vmess","server":"137.175.54.211","port":50502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸 US_分享日记_13A097","type":"vmess","server":"198.2.223.59","port":41866,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 31B16F, server: 142.4.97.71, port: 44942, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_118611B","type":"vmess","server":"140.99.59.230","port":55512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国_80E8F3, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 2486F2, server: 137.175.1.7, port: 53403, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 21A820, server: 140.99.59.229, port: 55512, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 14F94F, server: 142.4.97.73, port: 44942, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国50E0, server: 192.74.229.198, port: 51592, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 479A9, server: 142.4.118.227, port: 48902, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {"name":"🇺🇸 US_分享日记_157959F","type":"vmess","server":"171.22.134.9","port":53433,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_271211","type":"vmess","server":"142.4.126.47","port":44392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 167B3C, server: 142.4.110.24, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_9C7E5","type":"vmess","server":"142.4.110.25","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 18D3EC, server: 192.74.229.199, port: 51592, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 164AB8, server: 45.92.160.21, port: 47839, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 13C234, server: 198.2.203.60, port: 44672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_279319","type":"vmess","server":"198.2.203.57","port":44672,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 275A82, server: 198.2.218.205, port: 51203, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_316422","type":"vmess","server":"142.4.110.24","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_25410A","type":"vmess","server":"107.167.7.12","port":41654,"cipher":"auto","uuid":"bdee202c-8fae-441f-a588-7bc4d3887019","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_24DE9D","type":"vmess","server":"108.186.192.232","port":45502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_471E33","type":"vmess","server":"137.175.1.7","port":53403,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 1833D6, server: 192.74.243.60, port: 50246, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_7A993","type":"vmess","server":"64.32.4.6","port":50005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_36B6D0","type":"vmess","server":"192.74.234.155","port":42329,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国 伟科_1533BE","server":"192.74.229.199","port":"51592","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 14B9A6, server: 171.22.134.9, port: 53433, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_241AC4","type":"vmess","server":"140.99.49.55","port":55602,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 225F7A, server: 142.4.126.45, port: 44392, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 8F767, server: 140.99.59.230, port: 55512, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 16DD7C, server: 171.22.134.8, port: 53433, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_307C2F","type":"vmess","server":"192.74.243.33","port":50246,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国97EC, server: 198.2.203.59, port: 44672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇰🇷_KR_韩国_kkzui18505","type":"ss","server":"43.201.19.172","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_327BED","type":"vmess","server":"140.99.57.24","port":41912,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_US_美国_6_kkzui2050B","type":"vmess","server":"142.4.106.242","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇺🇸 _US_美国 15F68C, server: 142.4.99.91, port: 43379, client-fingerprint: chrome, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_54875","type":"vmess","server":"45.92.160.21","port":47839,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_232CA9","type":"vmess","server":"64.32.4.42","port":43166,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 12096B, server: 140.99.49.55, port: 55602, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国_139DE01, server: 140.99.140.170, port: 44932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_55B3F2","type":"vmess","server":"198.2.218.206","port":51203,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_US_美国_kkzzui.com4_27F6D7","type":"vmess","server":"108.186.116.182","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {name: 🇺🇸 _US_美国 181A17, server: 54.187.208.118, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_24441F","type":"vmess","server":"107.167.12.30","port":41707,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_972EC4","type":"vmess","server":"137.175.18.87","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 7A51B, server: 142.4.121.226, port: 45009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_4791FE","type":"vmess","server":"67.21.64.84","port":43123,"cipher":"auto","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_875C72","type":"vmess","server":"142.4.126.72","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_108C99D","type":"vmess","server":"108.186.116.183","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_12ABB4","type":"vmess","server":"140.99.57.23","port":41912,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_165646F","type":"vmess","server":"64.32.4.34","port":43166,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_12539A3","type":"vmess","server":"192.74.228.163","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_114845C","type":"vmess","server":"171.22.134.3","port":53433,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_6C3F0","type":"vmess","server":"108.186.4.1","port":42382,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 2117E2, server: 38.26.135.6, port: 44942, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_115FF69","type":"vmess","server":"185.156.111.108","port":49982,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 4454A, server: 107.167.29.235, port: 46321, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_309920","type":"vmess","server":"198.2.218.205","port":51203,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国_9107F5, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_56AD9","type":"vmess","server":"142.4.100.42","port":45009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_30C2A7","type":"vmess","server":"140.99.149.45","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_US_美国_20_3880C9","type":"vmess","server":"140.99.149.45","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {name: 🇺🇸 _US_美国 212EFA, server: 108.186.4.1, port: 42382, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_2193F4","type":"ss","server":"216.24.253.23","port":443,"password":"ami888","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸_US_美国_7_kkzui5AD04","type":"vmess","server":"140.99.149.43","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸 US_分享日记_7F9AB","type":"vmess","server":"142.4.126.70","port":52212,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 US_分享日记_54CFDC","type":"ss","server":"216.24.253.23","port":443,"password":"ami888","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US_分享日记_206805E","type":"vmess","server":"64.32.4.41","port":43166,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_1606E3","type":"vmess","server":"192.74.243.34","port":50246,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_20805F","type":"vmess","server":"23.225.211.21","port":42941,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_25B145","type":"vmess","server":"45.58.180.70","port":44802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {name: 🇺🇸 _US_美国 3D8A6, server: 108.186.192.229, port: 45502, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸_US_美国_kkzui0_2036E0","type":"vmess","server":"142.4.100.41","port":45009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {name: 🇺🇸 _US_美国 6B26F, server: 107.148.192.155, port: 49924, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {"name":"🇺🇸 US_分享日记_10B2D2","type":"vmess","server":"107.148.192.155","port":49924,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_27B237","type":"vmess","server":"172.247.148.89","port":53302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"SC_分享日记_20BF2","type":"vmess","server":"156.251.135.11","port":53302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_803B7C","type":"vmess","server":"140.99.140.170","port":44932,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国 伟科_23CD91","server":"142.4.112.27","port":"51091","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"name":"🇺🇸 US_分享日记_251AC5","type":"vmess","server":"137.175.1.49","port":46677,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - "🇯🇵 _JP_日本6011"
-      - "🇯🇵 _JP_日本 37817"
       - "🇰🇷 _KR_韩国9989"
-      - "🇰🇷 _KR_韩国 36C47"
-      - "🇰🇷韩国【YouTube-由零開始】_27BE6"
-      - "🇰🇷 _KR_韩国35E5"
+      - "🇰🇷 _KR_韩国 29B2A"
       - "🇰🇷 _KR_韩国 28B60"
-      - "🇺🇸美国【YouTube-由零開始】_705945"
-      - "🇺🇸美国【YouTube-由零開始】_15AB16"
-      - "🇺🇸 US_分享日记_588DC4"
-      - "🇺🇸_US_美国_kkzui_87887"
-      - "🇺🇸 _US_美国 167B3C"
-      - "🇺🇸_US_美国_kkzui0_28D5B0"
-      - "🇺🇸 US_分享日记_380A91"
-      - "🇺🇸 _US_美国 7A51B"
-      - "🇺🇸_US_美国_8_kkzui51FB7"
-      - "🇺🇸_US_美国_28_434520"
-      - "🇺🇸 _US_美国 31B16F"
-      - "🇺🇸 US_分享日记_6C3F0"
-      - "🇺🇸 _US_美国 105D8A"
-      - "🇺🇸 US_分享日记_130F4D7"
-      - "🇺🇸 US_分享日记_646A3"
-      - "🇺🇸_US_美国_2;kkzui_31E0C2"
-      - "🇺🇸 _US_美国 18D3EC"
-      - "🇺🇸美国【YouTube-由零開始】_11A932"
-      - "🇺🇸_US_美国_27_42ED04"
-      - "🇺🇸 US_分享日记_10B2D2"
-      - "🇺🇸 US_分享日记_972EC4"
-      - "🇺🇸_US_美国_6_kkzui2050B"
-      - "🇺🇸_US_美国_29_456069"
-      - "🇺🇸 _US_美国 54A5C"
+      - "🇨🇳 CN_分享日记_1035A"
       - "🇺🇸 _US_美国 23BD6D"
-      - "🇺🇸 _US_美国 15F68C"
-      - "🇺🇸 US_分享日记_577813"
-      - "🇺🇸 _US_美国_828936"
-      - "🇺🇸_US_美国_kkzui4_20489C"
-      - "🇺🇸 US_分享日记_198E632"
       - "🇺🇸 US_分享日记_11D7CF"
-      - "🇺🇸 _US_美国 41D2D"
-      - "🇺🇸 _US_美国 13C234"
+      - "🇺🇸_US_美国_27_42ED04"
+      - "🇺🇸 _US_美国_77047A"
+      - "🇺🇸美国【YouTube-由零開始】_160B21"
       - "🇺🇸 US_分享日记_112240"
-      - "🇺🇸 US_分享日记_1702142"
-      - "🇺🇸美国【YouTube-由零開始】_24DE9D"
-      - "🇺🇸 US_分享日记_407647"
-      - "🇺🇸 US_分享日记_316422"
-      - "🇺🇸_US_美国_2kkzui_3051BA"
-      - "🇺🇸_US_美国_kkzui2_2399CB"
-      - "🇺🇸_US_美国_9_kkzui66DD5"
-      - "🇺🇸 _US_美国 212EFA"
-      - "🇺🇸 _US_美国 111AE5"
-      - "🇺🇸 US_分享日记_9C7E5"
-      - "🇺🇸美国【YouTube-由零開始】_8BEFC"
-      - "🇺🇸 US_分享日记_696058"
-      - "🇺🇸 US_分享日记_231AA4"
-      - "SSRSUB-V19-付费推荐dlj.tf/ssrsub6B65"
-      - "🇺🇸 US_分享日记_307C2F"
-      - "🇺🇸 US_分享日记_44807F"
-      - "🇺🇸 US_分享日记_1726DC"
-      - "🇺🇸 _US_美国 28145"
-      - "🇺🇸 US_分享日记_481338"
-      - "🇺🇸 _US_美国 12E3A3"
-      - "🇺🇸_US_美国_20_3880C9"
-      - "🇺🇸 US_分享日记_1606E3"
-      - "🇺🇸 US_分享日记_11950D4"
-      - "🇺🇸 US_分享日记_38B537"
-      - "🇺🇸 US_分享日记_94F3E5"
-      - "🇺🇸 _US_美国 20FEFF"
-      - "🇺🇸 _US_美国 6B26F"
-      - "🇺🇸 US_分享日记_118611B"
-      - "🇺🇸_US_美国_7_kkzui3B767"
-      - "🇺🇸 US_分享日记_27B237"
-      - "🇺🇸_US_美国_9_kkzui..com661B0"
-      - "🇺🇸 _US_美国 225F7A"
-      - "🇺🇸 _US_美国 80CF7"
-      - "🇺🇸_US_美国_kkzui0_2036E0"
-      - "🇺🇸 _US_美国B54C"
       - "🇺🇸 US_分享日记_188938E"
-      - "🇺🇸 US_分享日记_875C72"
-      - "🇺🇸 _US_美国 16551D"
-      - "🇺🇸美国【YouTube-由零開始】_126896"
-      - "🇺🇸 US_分享日记_12539A3"
-      - "🇺🇸美国【YouTube-由零開始】_37F1F3"
-      - "🇺🇸 US_分享日记_1424D3"
-      - "🇺🇸 _US_美国_35423A"
+      - "🇺🇸 US_分享日记_1726DC"
+      - "🇺🇸 US_分享日记_577813"
+      - "🇺🇸 _US_美国 11848D"
+      - "🇺🇸 US_分享日记_149EF00"
+      - "🇺🇸 _US_美国_137D507"
+      - "🇺🇸美国【YouTube-由零開始】_22049E"
+      - "🇺🇸 US_分享日记_61D86F"
+      - "🇺🇸_US_美国_kkzui0_28D5B0"
+      - "🇺🇸_US_美国_kkzui4_2665CC"
+      - "🇺🇸 _US_美国 28145"
       - "🇺🇸 _US_美国 6D403"
-      - "🇺🇸 US_分享日记_8317A0"
-      - "🇺🇸 _US_美国 11EF68"
-      - "🇺🇸 US_分享日记_71521C"
-      - "🇺🇸 _US_美国 89DCB"
-      - "🇺🇸 US_分享日记_12143A"
-      - "🇺🇸 US_分享日记_12ABB4"
-      - "🇺🇸 US_分享日记_604B8C"
-      - "🇺🇸美国【YouTube-由零開始】_96419"
-      - "🇺🇸 _US_美国 181A17"
+      - "🇺🇸_US_美国_;kkzui7_4012D8"
+      - "🇺🇸 US_分享日记_13A097"
+      - "🇺🇸 _US_美国 31B16F"
+      - "🇺🇸 US_分享日记_118611B"
+      - "🇺🇸 _US_美国_80E8F3"
+      - "🇺🇸 _US_美国 2486F2"
+      - "🇺🇸 _US_美国 21A820"
+      - "🇺🇸 _US_美国 14F94F"
+      - "🇺🇸 _US_美国50E0"
       - "🇺🇸 _US_美国 479A9"
-      - "🇺🇸 US_分享日记_157959F"
-      - "🇺🇸 US_分享日记_271211"
+      - "🇺🇸 _US_美国 167B3C"
+      - "🇺🇸 US_分享日记_9C7E5"
+      - "🇺🇸 _US_美国 18D3EC"
+      - "🇺🇸 _US_美国 164AB8"
+      - "🇺🇸 _US_美国 13C234"
+      - "🇺🇸美国【YouTube-由零開始】_279319"
+      - "🇺🇸 _US_美国 275A82"
+      - "🇺🇸 US_分享日记_316422"
+      - "🇺🇸美国【YouTube-由零開始】_25410A"
+      - "🇺🇸美国【YouTube-由零開始】_24DE9D"
+      - "🇺🇸 US_分享日记_471E33"
+      - "🇺🇸 _US_美国 1833D6"
+      - "🇺🇸美国【YouTube-由零開始】_7A993"
+      - "🇺🇸 US_分享日记_36B6D0"
+      - "🇺🇸US美国 伟科_1533BE"
+      - "🇺🇸 _US_美国 14B9A6"
+      - "🇺🇸美国【YouTube-由零開始】_241AC4"
+      - "🇺🇸 _US_美国 225F7A"
+      - "🇺🇸 _US_美国 8F767"
+      - "🇺🇸 _US_美国 16DD7C"
+      - "🇺🇸 US_分享日记_307C2F"
+      - "🇺🇸 _US_美国97EC"
+      - "🇰🇷_KR_韩国_kkzui18505"
+      - "🇺🇸美国【YouTube-由零開始】_327BED"
+      - "🇺🇸_US_美国_6_kkzui2050B"
+      - "🇺🇸 _US_美国 15F68C"
+      - "🇺🇸 US_分享日记_54875"
+      - "🇺🇸美国【YouTube-由零開始】_232CA9"
+      - "🇺🇸 _US_美国 12096B"
+      - "🇺🇸 _US_美国_139DE01"
+      - "🇺🇸美国【YouTube-由零開始】_55B3F2"
+      - "🇺🇸_US_美国_kkzzui.com4_27F6D7"
+      - "🇺🇸 _US_美国 181A17"
+      - "🇺🇸美国【YouTube-由零開始】_24441F"
+      - "🇺🇸 US_分享日记_972EC4"
+      - "🇺🇸 _US_美国 7A51B"
+      - "🇺🇸 US_分享日记_4791FE"
+      - "🇺🇸 US_分享日记_875C72"
+      - "🇺🇸 US_分享日记_108C99D"
+      - "🇺🇸 US_分享日记_12ABB4"
+      - "🇺🇸 US_分享日记_165646F"
+      - "🇺🇸 US_分享日记_12539A3"
+      - "🇺🇸 US_分享日记_114845C"
+      - "🇺🇸 US_分享日记_6C3F0"
+      - "🇺🇸 _US_美国 2117E2"
+      - "🇺🇸 US_分享日记_115FF69"
+      - "🇺🇸 _US_美国 4454A"
+      - "🇺🇸 US_分享日记_309920"
+      - "🇺🇸 _US_美国_9107F5"
+      - "🇺🇸美国【YouTube-由零開始】_56AD9"
+      - "🇺🇸美国【YouTube-由零開始】_30C2A7"
+      - "🇺🇸_US_美国_20_3880C9"
+      - "🇺🇸 _US_美国 212EFA"
+      - "🇺🇸美国【YouTube-由零開始】_2193F4"
       - "🇺🇸_US_美国_7_kkzui5AD04"
-      - "🇺🇸 US_分享日记_7F9AB"
-      - "🇺🇸 US_分享日记_54CFDC"
+      - "🇺🇸 US_分享日记_206805E"
+      - "🇺🇸 US_分享日记_1606E3"
+      - "🇺🇸 US_分享日记_20805F"
+      - "🇺🇸美国【YouTube-由零開始】_25B145"
+      - "🇺🇸 _US_美国 3D8A6"
+      - "🇺🇸_US_美国_kkzui0_2036E0"
+      - "🇺🇸 _US_美国 6B26F"
+      - "🇺🇸 US_分享日记_10B2D2"
+      - "🇺🇸 US_分享日记_27B237"
+      - "SC_分享日记_20BF2"
+      - "🇺🇸 US_分享日记_803B7C"
+      - "🇺🇸US美国 伟科_23CD91"
+      - "🇺🇸 US_分享日记_251AC5"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.v2ex.com/generate_204
     interval: 150
     tolerance: 100
     proxies:
-      - "🇯🇵 _JP_日本6011"
-      - "🇯🇵 _JP_日本 37817"
       - "🇰🇷 _KR_韩国9989"
-      - "🇰🇷 _KR_韩国 36C47"
-      - "🇰🇷韩国【YouTube-由零開始】_27BE6"
-      - "🇰🇷 _KR_韩国35E5"
+      - "🇰🇷 _KR_韩国 29B2A"
       - "🇰🇷 _KR_韩国 28B60"
-      - "🇺🇸美国【YouTube-由零開始】_705945"
-      - "🇺🇸美国【YouTube-由零開始】_15AB16"
-      - "🇺🇸 US_分享日记_588DC4"
-      - "🇺🇸_US_美国_kkzui_87887"
-      - "🇺🇸 _US_美国 167B3C"
-      - "🇺🇸_US_美国_kkzui0_28D5B0"
-      - "🇺🇸 US_分享日记_380A91"
-      - "🇺🇸 _US_美国 7A51B"
-      - "🇺🇸_US_美国_8_kkzui51FB7"
-      - "🇺🇸_US_美国_28_434520"
-      - "🇺🇸 _US_美国 31B16F"
-      - "🇺🇸 US_分享日记_6C3F0"
-      - "🇺🇸 _US_美国 105D8A"
-      - "🇺🇸 US_分享日记_130F4D7"
-      - "🇺🇸 US_分享日记_646A3"
-      - "🇺🇸_US_美国_2;kkzui_31E0C2"
-      - "🇺🇸 _US_美国 18D3EC"
-      - "🇺🇸美国【YouTube-由零開始】_11A932"
-      - "🇺🇸_US_美国_27_42ED04"
-      - "🇺🇸 US_分享日记_10B2D2"
-      - "🇺🇸 US_分享日记_972EC4"
-      - "🇺🇸_US_美国_6_kkzui2050B"
-      - "🇺🇸_US_美国_29_456069"
-      - "🇺🇸 _US_美国 54A5C"
+      - "🇨🇳 CN_分享日记_1035A"
       - "🇺🇸 _US_美国 23BD6D"
-      - "🇺🇸 _US_美国 15F68C"
-      - "🇺🇸 US_分享日记_577813"
-      - "🇺🇸 _US_美国_828936"
-      - "🇺🇸_US_美国_kkzui4_20489C"
-      - "🇺🇸 US_分享日记_198E632"
       - "🇺🇸 US_分享日记_11D7CF"
-      - "🇺🇸 _US_美国 41D2D"
-      - "🇺🇸 _US_美国 13C234"
+      - "🇺🇸_US_美国_27_42ED04"
+      - "🇺🇸 _US_美国_77047A"
+      - "🇺🇸美国【YouTube-由零開始】_160B21"
       - "🇺🇸 US_分享日记_112240"
-      - "🇺🇸 US_分享日记_1702142"
-      - "🇺🇸美国【YouTube-由零開始】_24DE9D"
-      - "🇺🇸 US_分享日记_407647"
-      - "🇺🇸 US_分享日记_316422"
-      - "🇺🇸_US_美国_2kkzui_3051BA"
-      - "🇺🇸_US_美国_kkzui2_2399CB"
-      - "🇺🇸_US_美国_9_kkzui66DD5"
-      - "🇺🇸 _US_美国 212EFA"
-      - "🇺🇸 _US_美国 111AE5"
-      - "🇺🇸 US_分享日记_9C7E5"
-      - "🇺🇸美国【YouTube-由零開始】_8BEFC"
-      - "🇺🇸 US_分享日记_696058"
-      - "🇺🇸 US_分享日记_231AA4"
-      - "SSRSUB-V19-付费推荐dlj.tf/ssrsub6B65"
-      - "🇺🇸 US_分享日记_307C2F"
-      - "🇺🇸 US_分享日记_44807F"
-      - "🇺🇸 US_分享日记_1726DC"
-      - "🇺🇸 _US_美国 28145"
-      - "🇺🇸 US_分享日记_481338"
-      - "🇺🇸 _US_美国 12E3A3"
-      - "🇺🇸_US_美国_20_3880C9"
-      - "🇺🇸 US_分享日记_1606E3"
-      - "🇺🇸 US_分享日记_11950D4"
-      - "🇺🇸 US_分享日记_38B537"
-      - "🇺🇸 US_分享日记_94F3E5"
-      - "🇺🇸 _US_美国 20FEFF"
-      - "🇺🇸 _US_美国 6B26F"
-      - "🇺🇸 US_分享日记_118611B"
-      - "🇺🇸_US_美国_7_kkzui3B767"
-      - "🇺🇸 US_分享日记_27B237"
-      - "🇺🇸_US_美国_9_kkzui..com661B0"
-      - "🇺🇸 _US_美国 225F7A"
-      - "🇺🇸 _US_美国 80CF7"
-      - "🇺🇸_US_美国_kkzui0_2036E0"
-      - "🇺🇸 _US_美国B54C"
       - "🇺🇸 US_分享日记_188938E"
-      - "🇺🇸 US_分享日记_875C72"
-      - "🇺🇸 _US_美国 16551D"
-      - "🇺🇸美国【YouTube-由零開始】_126896"
-      - "🇺🇸 US_分享日记_12539A3"
-      - "🇺🇸美国【YouTube-由零開始】_37F1F3"
-      - "🇺🇸 US_分享日记_1424D3"
-      - "🇺🇸 _US_美国_35423A"
+      - "🇺🇸 US_分享日记_1726DC"
+      - "🇺🇸 US_分享日记_577813"
+      - "🇺🇸 _US_美国 11848D"
+      - "🇺🇸 US_分享日记_149EF00"
+      - "🇺🇸 _US_美国_137D507"
+      - "🇺🇸美国【YouTube-由零開始】_22049E"
+      - "🇺🇸 US_分享日记_61D86F"
+      - "🇺🇸_US_美国_kkzui0_28D5B0"
+      - "🇺🇸_US_美国_kkzui4_2665CC"
+      - "🇺🇸 _US_美国 28145"
       - "🇺🇸 _US_美国 6D403"
-      - "🇺🇸 US_分享日记_8317A0"
-      - "🇺🇸 _US_美国 11EF68"
-      - "🇺🇸 US_分享日记_71521C"
-      - "🇺🇸 _US_美国 89DCB"
-      - "🇺🇸 US_分享日记_12143A"
-      - "🇺🇸 US_分享日记_12ABB4"
-      - "🇺🇸 US_分享日记_604B8C"
-      - "🇺🇸美国【YouTube-由零開始】_96419"
-      - "🇺🇸 _US_美国 181A17"
+      - "🇺🇸_US_美国_;kkzui7_4012D8"
+      - "🇺🇸 US_分享日记_13A097"
+      - "🇺🇸 _US_美国 31B16F"
+      - "🇺🇸 US_分享日记_118611B"
+      - "🇺🇸 _US_美国_80E8F3"
+      - "🇺🇸 _US_美国 2486F2"
+      - "🇺🇸 _US_美国 21A820"
+      - "🇺🇸 _US_美国 14F94F"
+      - "🇺🇸 _US_美国50E0"
       - "🇺🇸 _US_美国 479A9"
-      - "🇺🇸 US_分享日记_157959F"
-      - "🇺🇸 US_分享日记_271211"
+      - "🇺🇸 _US_美国 167B3C"
+      - "🇺🇸 US_分享日记_9C7E5"
+      - "🇺🇸 _US_美国 18D3EC"
+      - "🇺🇸 _US_美国 164AB8"
+      - "🇺🇸 _US_美国 13C234"
+      - "🇺🇸美国【YouTube-由零開始】_279319"
+      - "🇺🇸 _US_美国 275A82"
+      - "🇺🇸 US_分享日记_316422"
+      - "🇺🇸美国【YouTube-由零開始】_25410A"
+      - "🇺🇸美国【YouTube-由零開始】_24DE9D"
+      - "🇺🇸 US_分享日记_471E33"
+      - "🇺🇸 _US_美国 1833D6"
+      - "🇺🇸美国【YouTube-由零開始】_7A993"
+      - "🇺🇸 US_分享日记_36B6D0"
+      - "🇺🇸US美国 伟科_1533BE"
+      - "🇺🇸 _US_美国 14B9A6"
+      - "🇺🇸美国【YouTube-由零開始】_241AC4"
+      - "🇺🇸 _US_美国 225F7A"
+      - "🇺🇸 _US_美国 8F767"
+      - "🇺🇸 _US_美国 16DD7C"
+      - "🇺🇸 US_分享日记_307C2F"
+      - "🇺🇸 _US_美国97EC"
+      - "🇰🇷_KR_韩国_kkzui18505"
+      - "🇺🇸美国【YouTube-由零開始】_327BED"
+      - "🇺🇸_US_美国_6_kkzui2050B"
+      - "🇺🇸 _US_美国 15F68C"
+      - "🇺🇸 US_分享日记_54875"
+      - "🇺🇸美国【YouTube-由零開始】_232CA9"
+      - "🇺🇸 _US_美国 12096B"
+      - "🇺🇸 _US_美国_139DE01"
+      - "🇺🇸美国【YouTube-由零開始】_55B3F2"
+      - "🇺🇸_US_美国_kkzzui.com4_27F6D7"
+      - "🇺🇸 _US_美国 181A17"
+      - "🇺🇸美国【YouTube-由零開始】_24441F"
+      - "🇺🇸 US_分享日记_972EC4"
+      - "🇺🇸 _US_美国 7A51B"
+      - "🇺🇸 US_分享日记_4791FE"
+      - "🇺🇸 US_分享日记_875C72"
+      - "🇺🇸 US_分享日记_108C99D"
+      - "🇺🇸 US_分享日记_12ABB4"
+      - "🇺🇸 US_分享日记_165646F"
+      - "🇺🇸 US_分享日记_12539A3"
+      - "🇺🇸 US_分享日记_114845C"
+      - "🇺🇸 US_分享日记_6C3F0"
+      - "🇺🇸 _US_美国 2117E2"
+      - "🇺🇸 US_分享日记_115FF69"
+      - "🇺🇸 _US_美国 4454A"
+      - "🇺🇸 US_分享日记_309920"
+      - "🇺🇸 _US_美国_9107F5"
+      - "🇺🇸美国【YouTube-由零開始】_56AD9"
+      - "🇺🇸美国【YouTube-由零開始】_30C2A7"
+      - "🇺🇸_US_美国_20_3880C9"
+      - "🇺🇸 _US_美国 212EFA"
+      - "🇺🇸美国【YouTube-由零開始】_2193F4"
       - "🇺🇸_US_美国_7_kkzui5AD04"
-      - "🇺🇸 US_分享日记_7F9AB"
-      - "🇺🇸 US_分享日记_54CFDC"
+      - "🇺🇸 US_分享日记_206805E"
+      - "🇺🇸 US_分享日记_1606E3"
+      - "🇺🇸 US_分享日记_20805F"
+      - "🇺🇸美国【YouTube-由零開始】_25B145"
+      - "🇺🇸 _US_美国 3D8A6"
+      - "🇺🇸_US_美国_kkzui0_2036E0"
+      - "🇺🇸 _US_美国 6B26F"
+      - "🇺🇸 US_分享日记_10B2D2"
+      - "🇺🇸 US_分享日记_27B237"
+      - "SC_分享日记_20BF2"
+      - "🇺🇸 US_分享日记_803B7C"
+      - "🇺🇸US美国 伟科_23CD91"
+      - "🇺🇸 US_分享日记_251AC5"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇯🇵 _JP_日本6011"
-      - "🇯🇵 _JP_日本 37817"
       - "🇰🇷 _KR_韩国9989"
-      - "🇰🇷 _KR_韩国 36C47"
-      - "🇰🇷韩国【YouTube-由零開始】_27BE6"
-      - "🇰🇷 _KR_韩国35E5"
+      - "🇰🇷 _KR_韩国 29B2A"
       - "🇰🇷 _KR_韩国 28B60"
-      - "🇺🇸美国【YouTube-由零開始】_705945"
-      - "🇺🇸美国【YouTube-由零開始】_15AB16"
-      - "🇺🇸 US_分享日记_588DC4"
-      - "🇺🇸_US_美国_kkzui_87887"
-      - "🇺🇸 _US_美国 167B3C"
-      - "🇺🇸_US_美国_kkzui0_28D5B0"
-      - "🇺🇸 US_分享日记_380A91"
-      - "🇺🇸 _US_美国 7A51B"
-      - "🇺🇸_US_美国_8_kkzui51FB7"
-      - "🇺🇸_US_美国_28_434520"
-      - "🇺🇸 _US_美国 31B16F"
-      - "🇺🇸 US_分享日记_6C3F0"
-      - "🇺🇸 _US_美国 105D8A"
-      - "🇺🇸 US_分享日记_130F4D7"
-      - "🇺🇸 US_分享日记_646A3"
-      - "🇺🇸_US_美国_2;kkzui_31E0C2"
-      - "🇺🇸 _US_美国 18D3EC"
-      - "🇺🇸美国【YouTube-由零開始】_11A932"
-      - "🇺🇸_US_美国_27_42ED04"
-      - "🇺🇸 US_分享日记_10B2D2"
-      - "🇺🇸 US_分享日记_972EC4"
-      - "🇺🇸_US_美国_6_kkzui2050B"
-      - "🇺🇸_US_美国_29_456069"
-      - "🇺🇸 _US_美国 54A5C"
+      - "🇨🇳 CN_分享日记_1035A"
       - "🇺🇸 _US_美国 23BD6D"
-      - "🇺🇸 _US_美国 15F68C"
-      - "🇺🇸 US_分享日记_577813"
-      - "🇺🇸 _US_美国_828936"
-      - "🇺🇸_US_美国_kkzui4_20489C"
-      - "🇺🇸 US_分享日记_198E632"
       - "🇺🇸 US_分享日记_11D7CF"
-      - "🇺🇸 _US_美国 41D2D"
-      - "🇺🇸 _US_美国 13C234"
+      - "🇺🇸_US_美国_27_42ED04"
+      - "🇺🇸 _US_美国_77047A"
+      - "🇺🇸美国【YouTube-由零開始】_160B21"
       - "🇺🇸 US_分享日记_112240"
-      - "🇺🇸 US_分享日记_1702142"
-      - "🇺🇸美国【YouTube-由零開始】_24DE9D"
-      - "🇺🇸 US_分享日记_407647"
-      - "🇺🇸 US_分享日记_316422"
-      - "🇺🇸_US_美国_2kkzui_3051BA"
-      - "🇺🇸_US_美国_kkzui2_2399CB"
-      - "🇺🇸_US_美国_9_kkzui66DD5"
-      - "🇺🇸 _US_美国 212EFA"
-      - "🇺🇸 _US_美国 111AE5"
-      - "🇺🇸 US_分享日记_9C7E5"
-      - "🇺🇸美国【YouTube-由零開始】_8BEFC"
-      - "🇺🇸 US_分享日记_696058"
-      - "🇺🇸 US_分享日记_231AA4"
-      - "SSRSUB-V19-付费推荐dlj.tf/ssrsub6B65"
-      - "🇺🇸 US_分享日记_307C2F"
-      - "🇺🇸 US_分享日记_44807F"
-      - "🇺🇸 US_分享日记_1726DC"
-      - "🇺🇸 _US_美国 28145"
-      - "🇺🇸 US_分享日记_481338"
-      - "🇺🇸 _US_美国 12E3A3"
-      - "🇺🇸_US_美国_20_3880C9"
-      - "🇺🇸 US_分享日记_1606E3"
-      - "🇺🇸 US_分享日记_11950D4"
-      - "🇺🇸 US_分享日记_38B537"
-      - "🇺🇸 US_分享日记_94F3E5"
-      - "🇺🇸 _US_美国 20FEFF"
-      - "🇺🇸 _US_美国 6B26F"
-      - "🇺🇸 US_分享日记_118611B"
-      - "🇺🇸_US_美国_7_kkzui3B767"
-      - "🇺🇸 US_分享日记_27B237"
-      - "🇺🇸_US_美国_9_kkzui..com661B0"
-      - "🇺🇸 _US_美国 225F7A"
-      - "🇺🇸 _US_美国 80CF7"
-      - "🇺🇸_US_美国_kkzui0_2036E0"
-      - "🇺🇸 _US_美国B54C"
       - "🇺🇸 US_分享日记_188938E"
-      - "🇺🇸 US_分享日记_875C72"
-      - "🇺🇸 _US_美国 16551D"
-      - "🇺🇸美国【YouTube-由零開始】_126896"
-      - "🇺🇸 US_分享日记_12539A3"
-      - "🇺🇸美国【YouTube-由零開始】_37F1F3"
-      - "🇺🇸 US_分享日记_1424D3"
-      - "🇺🇸 _US_美国_35423A"
+      - "🇺🇸 US_分享日记_1726DC"
+      - "🇺🇸 US_分享日记_577813"
+      - "🇺🇸 _US_美国 11848D"
+      - "🇺🇸 US_分享日记_149EF00"
+      - "🇺🇸 _US_美国_137D507"
+      - "🇺🇸美国【YouTube-由零開始】_22049E"
+      - "🇺🇸 US_分享日记_61D86F"
+      - "🇺🇸_US_美国_kkzui0_28D5B0"
+      - "🇺🇸_US_美国_kkzui4_2665CC"
+      - "🇺🇸 _US_美国 28145"
       - "🇺🇸 _US_美国 6D403"
-      - "🇺🇸 US_分享日记_8317A0"
-      - "🇺🇸 _US_美国 11EF68"
-      - "🇺🇸 US_分享日记_71521C"
-      - "🇺🇸 _US_美国 89DCB"
-      - "🇺🇸 US_分享日记_12143A"
-      - "🇺🇸 US_分享日记_12ABB4"
-      - "🇺🇸 US_分享日记_604B8C"
-      - "🇺🇸美国【YouTube-由零開始】_96419"
-      - "🇺🇸 _US_美国 181A17"
+      - "🇺🇸_US_美国_;kkzui7_4012D8"
+      - "🇺🇸 US_分享日记_13A097"
+      - "🇺🇸 _US_美国 31B16F"
+      - "🇺🇸 US_分享日记_118611B"
+      - "🇺🇸 _US_美国_80E8F3"
+      - "🇺🇸 _US_美国 2486F2"
+      - "🇺🇸 _US_美国 21A820"
+      - "🇺🇸 _US_美国 14F94F"
+      - "🇺🇸 _US_美国50E0"
       - "🇺🇸 _US_美国 479A9"
-      - "🇺🇸 US_分享日记_157959F"
-      - "🇺🇸 US_分享日记_271211"
+      - "🇺🇸 _US_美国 167B3C"
+      - "🇺🇸 US_分享日记_9C7E5"
+      - "🇺🇸 _US_美国 18D3EC"
+      - "🇺🇸 _US_美国 164AB8"
+      - "🇺🇸 _US_美国 13C234"
+      - "🇺🇸美国【YouTube-由零開始】_279319"
+      - "🇺🇸 _US_美国 275A82"
+      - "🇺🇸 US_分享日记_316422"
+      - "🇺🇸美国【YouTube-由零開始】_25410A"
+      - "🇺🇸美国【YouTube-由零開始】_24DE9D"
+      - "🇺🇸 US_分享日记_471E33"
+      - "🇺🇸 _US_美国 1833D6"
+      - "🇺🇸美国【YouTube-由零開始】_7A993"
+      - "🇺🇸 US_分享日记_36B6D0"
+      - "🇺🇸US美国 伟科_1533BE"
+      - "🇺🇸 _US_美国 14B9A6"
+      - "🇺🇸美国【YouTube-由零開始】_241AC4"
+      - "🇺🇸 _US_美国 225F7A"
+      - "🇺🇸 _US_美国 8F767"
+      - "🇺🇸 _US_美国 16DD7C"
+      - "🇺🇸 US_分享日记_307C2F"
+      - "🇺🇸 _US_美国97EC"
+      - "🇰🇷_KR_韩国_kkzui18505"
+      - "🇺🇸美国【YouTube-由零開始】_327BED"
+      - "🇺🇸_US_美国_6_kkzui2050B"
+      - "🇺🇸 _US_美国 15F68C"
+      - "🇺🇸 US_分享日记_54875"
+      - "🇺🇸美国【YouTube-由零開始】_232CA9"
+      - "🇺🇸 _US_美国 12096B"
+      - "🇺🇸 _US_美国_139DE01"
+      - "🇺🇸美国【YouTube-由零開始】_55B3F2"
+      - "🇺🇸_US_美国_kkzzui.com4_27F6D7"
+      - "🇺🇸 _US_美国 181A17"
+      - "🇺🇸美国【YouTube-由零開始】_24441F"
+      - "🇺🇸 US_分享日记_972EC4"
+      - "🇺🇸 _US_美国 7A51B"
+      - "🇺🇸 US_分享日记_4791FE"
+      - "🇺🇸 US_分享日记_875C72"
+      - "🇺🇸 US_分享日记_108C99D"
+      - "🇺🇸 US_分享日记_12ABB4"
+      - "🇺🇸 US_分享日记_165646F"
+      - "🇺🇸 US_分享日记_12539A3"
+      - "🇺🇸 US_分享日记_114845C"
+      - "🇺🇸 US_分享日记_6C3F0"
+      - "🇺🇸 _US_美国 2117E2"
+      - "🇺🇸 US_分享日记_115FF69"
+      - "🇺🇸 _US_美国 4454A"
+      - "🇺🇸 US_分享日记_309920"
+      - "🇺🇸 _US_美国_9107F5"
+      - "🇺🇸美国【YouTube-由零開始】_56AD9"
+      - "🇺🇸美国【YouTube-由零開始】_30C2A7"
+      - "🇺🇸_US_美国_20_3880C9"
+      - "🇺🇸 _US_美国 212EFA"
+      - "🇺🇸美国【YouTube-由零開始】_2193F4"
       - "🇺🇸_US_美国_7_kkzui5AD04"
-      - "🇺🇸 US_分享日记_7F9AB"
-      - "🇺🇸 US_分享日记_54CFDC"
+      - "🇺🇸 US_分享日记_206805E"
+      - "🇺🇸 US_分享日记_1606E3"
+      - "🇺🇸 US_分享日记_20805F"
+      - "🇺🇸美国【YouTube-由零開始】_25B145"
+      - "🇺🇸 _US_美国 3D8A6"
+      - "🇺🇸_US_美国_kkzui0_2036E0"
+      - "🇺🇸 _US_美国 6B26F"
+      - "🇺🇸 US_分享日记_10B2D2"
+      - "🇺🇸 US_分享日记_27B237"
+      - "SC_分享日记_20BF2"
+      - "🇺🇸 US_分享日记_803B7C"
+      - "🇺🇸US美国 伟科_23CD91"
+      - "🇺🇸 US_分享日记_251AC5"
   - name: 📲 电报信息
     type: select
     proxies:
