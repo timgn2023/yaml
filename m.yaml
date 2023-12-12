@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：guo
 # 客户端：Clash
-# 创建时间：2023/12/12 15:20:00
+# 创建时间：2023/12/12 15:24:16
 # 使用模版：acl4SSR规则
 ####################################
 mixed-port: 7890
@@ -22,6 +22,9 @@ dns:
     - 8.8.8.8
     - 8.8.4.4
   enhanced-mode: fake-ip
+  hosts:
+    'file.plsw.cn':192.168.20.241
+    'plnsfwg':192.168.20.252
   fake-ip-filter:
     - "*.lan"
     - "*.localdomain"
@@ -167,9 +170,6 @@ dns:
       - +.googlesyndication.com
       - +.googletagmanager.com
       - +.googletagservices.com
-hosts:
-  'file.plsw.cn':192.168.20.241
-  'plnsfwg':192.168.20.252
 proxies:
     - { name: noname17, type: trojan, server: download2hkt.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
     - { name: noname18, type: trojan, server: download2hkt.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
