@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：guo
 # 客户端：Clash
-# 创建时间：2023/12/12 15:34:02
+# 创建时间：2023/12/12 15:37:51
 # 使用模版：acl4SSR规则
 ####################################
 mixed-port: 7890
@@ -15,9 +15,6 @@ clash-for-android:
   append-system-dns: false
 profile:
   tracing: true
-hosts:
-  "file.plsw.cn":"192.168.20.241"
-
 dns:
   enabled: true
   ipv6: false
@@ -197,6 +194,8 @@ rules:
  - DOMAIN-SUFFIX,cip.cc,🚀 节点选择
  - DOMAIN-SUFFIX,lddgo.net,🚀 节点选择
  - DOMAIN-SUFFIX,lanzous.com,🚀 节点选择
+ hosts:
+ - DOMAIN-SUFFIX,file.plsw.cn,192.168.20.241
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
