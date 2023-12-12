@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：guo
 # 客户端：Clash
-# 创建时间：2023/12/12 15:32:25
+# 创建时间：2023/12/12 15:34:02
 # 使用模版：acl4SSR规则
 ####################################
 mixed-port: 7890
@@ -15,6 +15,9 @@ clash-for-android:
   append-system-dns: false
 profile:
   tracing: true
+hosts:
+  "file.plsw.cn":"192.168.20.241"
+
 dns:
   enabled: true
   ipv6: false
@@ -22,9 +25,6 @@ dns:
     - 8.8.8.8
     - 8.8.4.4
   enhanced-mode: fake-ip
-  hosts:
-    "file.plsw.cn":"192.168.20.241"
-    plnsfwg:192.168.20.252
   fake-ip-filter:
     - "*.lan"
     - "*.localdomain"
