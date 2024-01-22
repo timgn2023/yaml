@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：guo
 # 客户端：Clash
-# 创建时间：2024/1/19 17:05:07
+# 创建时间：2024/1/22 9:03:07
 # 使用模版：acl4SSR规则
 ####################################
 mixed-port: 7890
@@ -12,8 +12,6 @@ external-controller: 127.0.0.1:7880
 secret: f5a73625-351b-48a0-8339-36b88a4ecd81
 clash-for-android:
   append-system-dns: false
-hosts:
-  file.plsw.cn: 192.168.20.241
 profile:
   tracing: true
 dns:
