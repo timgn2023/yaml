@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：guo
 # 客户端：Clash
-# 创建时间：2024/3/8 6:58:31
+# 创建时间：2024/3/8 17:10:48
 # 使用模版：acl4SSR规则
 ####################################
 mixed-port: 7890
@@ -182,8 +182,8 @@ proxies:
     - { name: '美国洛杉矶2号 | 解锁流媒体', type: trojan, server: 77.75.199.199, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/us2, headers: { Host: glc-us2.glccf.top } }, sni: glc-us2.glccf.top }
     - { name: '美国凤凰城 | 解锁流媒体', type: trojan, server: 156.238.18.80, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/us3, headers: { Host: glc-us3.glccf.top } }, sni: glc-us3.glccf.top }
     - { name: '德国 | 解锁流媒体', type: trojan, server: 156.238.18.15, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/de, headers: { Host: glc-de.glccf.top } }, sni: glc-de.glccf.top }
-    - { name: '法国 | 解锁流媒体', type: trojan, server: 156.238.18.10, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/fr, headers: { Host: fr1.glccf.top } }, sni: fr1.glccf.top }
-    - { name: 土耳其, type: trojan, server: 156.238.18.35, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/tr1, headers: { Host: glc-tr1.glccf.top } }, sni: glc-tr1.glccf.top }
+    - { name: '法国 | 解锁流媒体', type: trojan, server: 156.238.18.19, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/fr, headers: { Host: fr1.glccf.top } }, sni: fr1.glccf.top }
+    - { name: 土耳其, type: trojan, server: 156.238.18.48, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/tr1, headers: { Host: glc-tr1.glccf.top } }, sni: glc-tr1.glccf.top }
 proxy-groups:
     - { name: 🚀 节点选择, type: select, proxies: [自动选择, 土耳其, '法国 | 解锁流媒体', '德国 | 解锁流媒体', '美国凤凰城 | 解锁流媒体', '美国洛杉矶2号 | 解锁流媒体', '美国洛杉矶 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '日本path | 解锁流媒体', '香港HKT2 | 解锁流媒体', '香港HKT | 解锁流媒体', '台湾Hinet | 解锁流媒体', noname20, noname19, noname18, noname17] }
     - { name: 自动选择, type: url-test, proxies: [土耳其, '法国 | 解锁流媒体', '德国 | 解锁流媒体', '美国凤凰城 | 解锁流媒体', '美国洛杉矶2号 | 解锁流媒体', '美国洛杉矶 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '日本path | 解锁流媒体', '香港HKT2 | 解锁流媒体', '香港HKT | 解锁流媒体', '台湾Hinet | 解锁流媒体', noname20, noname19, noname18, noname17], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
