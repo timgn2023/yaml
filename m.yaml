@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：guo
 # 客户端：Clash
-# 创建时间：2024/3/24 23:50:29
+# 创建时间：2024/3/25 6:58:44
 # 使用模版：acl4SSR规则
 ####################################
 mixed-port: 7890
@@ -176,7 +176,7 @@ proxies:
     - { name: '台湾Hinet | 解锁流媒体', type: trojan, server: glc.g.tw.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-tw1.windowsupdatea.com }
     - { name: '香港HKT | 解锁流媒体', type: trojan, server: hkt.g.hk.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt1.windowsupdatea.com }
     - { name: '香港HKT2 | 解锁流媒体', type: trojan, server: hkt.g.hk2.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
-    - { name: '新加坡 | 解锁流媒体', type: trojan, server: 156.238.18.253, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/sg1, headers: { Host: glc-sg1.glccf.top } }, sni: glc-sg1.glccf.top }
+    - { name: '新加坡 | 解锁流媒体', type: trojan, server: 77.75.199.33, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/sg1, headers: { Host: glc-sg1.glccf.top } }, sni: glc-sg1.glccf.top }
     - { name: '台湾Hinet-1号线路 | 解锁流媒体', type: trojan, server: 77.75.199.33, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/hinet, headers: { Host: glc-hinet.glccf.top } }, sni: glc-hinet.glccf.top }
     - { name: '美国洛杉矶2号 | 解锁流媒体', type: trojan, server: 77.75.199.199, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/us2, headers: { Host: glc-us2.glccf.top } }, sni: glc-us2.glccf.top }
     - { name: '美国凤凰城 | 解锁流媒体', type: trojan, server: 77.75.199.215, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, network: ws, ws-opts: { path: /guolicheng/us3, headers: { Host: glc-us3.glccf.top } }, sni: glc-us3.glccf.top }
