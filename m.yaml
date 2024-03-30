@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：guo
 # 客户端：Clash
-# 创建时间：2024/3/30 23:50:45
+# 创建时间：2024/3/31 6:58:20
 # 使用模版：acl4SSR规则
 ####################################
 mixed-port: 7890
@@ -169,10 +169,10 @@ dns:
       - +.googletagmanager.com
       - +.googletagservices.com
 proxies:
-    - { name: noname17, type: trojan, server: download2hkt.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
-    - { name: noname18, type: trojan, server: download2hkt.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
-    - { name: noname19, type: trojan, server: download2hkt.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
-    - { name: noname20, type: trojan, server: download2hkt.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
+    - { name: noname17, type: trojan, server: hkt.g.hk2.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
+    - { name: noname18, type: trojan, server: hkt.g.hk2.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
+    - { name: noname19, type: trojan, server: hkt.g.hk2.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
+    - { name: noname20, type: trojan, server: hkt.g.hk2.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
     - { name: '台湾Hinet | 解锁流媒体', type: trojan, server: glc.g.tw.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-tw1.windowsupdatea.com }
     - { name: '香港HKT | 解锁流媒体', type: trojan, server: hkt.g.hk.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt1.windowsupdatea.com }
     - { name: '香港HKT2 | 解锁流媒体', type: trojan, server: hkt.g.hk2.download.windowsupdatea.com, port: 443, password: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, sni: glc-hkt2.windowsupdatea.com }
