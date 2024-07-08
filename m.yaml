@@ -30298,5 +30298,5 @@ rules:
     - 'DOMAIN-SUFFIX,tv012.com,🎯 全球直连'
     - 'DOMAIN-SUFFIX,tv2box.com,🎯 全球直连'
     - 'DOMAIN-SUFFIX,tvbox10.com,🎯 全球直连'
-    - 'GEOIP,CN,🎯 全球直连'
+    - 'GEOIP,CN,🎯 全球直连,no-resolve'
     - 'MATCH,🐟 漏网之鱼'
