@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：bai
 # 客户端：Clash
-# 创建时间：2024/7/10 6:58:31
+# 创建时间：2024/7/10 11:42:48
 # 使用模版：acl4SSR规则
 ####################################
 port: 7890
@@ -23,8 +23,8 @@ dns:
     default-nameserver: [223.5.5.5, 119.29.29.29]
     fake-ip-range: 198.18.0.1/16
     use-hosts: true
-    nameserver: [8.8.8.8, 8.8.4.4]
-    fallback: [199.85.126.10, 199.85.127.10, 208.67.222.222, 208.67.220.220]
+    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://1.0.0.1:853', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
     - { name: '🇭🇰 香港 01', type: ss, server: ununim.yangliq.com, port: 21101, cipher: aes-128-gcm, password: 7c066557-0cdf-4aee-9222-bfa3ff74b9a4, udp: true }
