@@ -98,6 +98,7 @@ proxy-groups:
     - { name: 🇺🇸美国节点, type: select, proxies: ['🇺🇸 美国 01', '🇺🇸 美国 02', '🇺🇸 美国 03'] }
     - { name: 🇯🇵日本节点, type: select, proxies: ['🇯🇵 日本 01', '🇯🇵 日本 02', '🇯🇵 日本 03'] }
 rules:
+ - DOMAIN-SUFFIX,gvt2.com,REJECT
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 手动切换
  - DOMAIN-SUFFIX,services.googleapis.cn,🚀 手动切换
  - DOMAIN-SUFFIX,ip138.com,🚀 手动切换
