@@ -1,7 +1,7 @@
 ﻿####################################
 # 创建者：bai
 # 客户端：Clash
-# 创建时间：2025-02-17 11:42:24
+# 创建时间：2025-02-17 12:17:07
 # 使用模版：acl4SSR规则
 ####################################
 port: 7890
@@ -143,6 +143,12 @@ proxy-groups:
     - { name: 🇺🇸美国节点, type: select, proxies: ['🇺🇸 美国 01', '🇺🇸 美国 02', '🇺🇸 美国 03', '🇺🇸 美国 04'] }
     - { name: 🇯🇵日本节点, type: select, proxies: ['🇯🇵 日本 01', '🇯🇵 日本 02', '🇯🇵 日本 03', '🇯🇵 日本 04'] }
 rules:
+ - DOMAIN-SUFFIX,doubleclick.net,REJECT
+ - DOMAIN-SUFFIX,googleadservices.com,REJECT
+ - DOMAIN-SUFFIX,googlesyndication.com,REJECT
+ - DOMAIN-SUFFIX,premiumyva.appspot.com,REJECT
+ - DOMAIN-SUFFIX,youtubei.googleapis.com,REJECT
+ - DOMAIN-SUFFIX,gvt2.com,REJECT
  - DOMAIN-SUFFIX,ip138.com,🚀 手动切换
  - DOMAIN-SUFFIX,cip.cc,🚀 手动切换
  - DOMAIN-SUFFIX,lddgo.net,🚀 手动切换
