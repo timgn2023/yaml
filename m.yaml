@@ -1,10 +1,10 @@
 ﻿####################################
 # 创建者：bai
 # 客户端：Clash
-# 创建时间：2025/4/8 18:21:28
+# 创建时间：2025/4/8 19:28:10
 # 使用模版：acl4SSR规则
 ####################################
-#subscription-userinfo_startupload=13954505; download=3778764251; total=1099511627776; expire=1758018227#subscription-userinfo_end
+#subscription-userinfo_startupload=17031989; download=3846039973; total=1099511627776; expire=1758018227#subscription-userinfo_end
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
@@ -24,7 +24,7 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：1020.47 GB', type: vless, server: 146.56.145.181, port: 443, uuid: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: glc-kr1.windowsupdatea.com }
+    - { name: '剩余流量：1020.4 GB', type: vless, server: 146.56.145.181, port: 443, uuid: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: glc-kr1.windowsupdatea.com }
     - { name: '距离下次重置剩余：8 天', type: vless, server: 146.56.145.181, port: 443, uuid: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: glc-kr1.windowsupdatea.com }
     - { name: 套餐到期：2025-09-16, type: vless, server: 146.56.145.181, port: 443, uuid: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: glc-kr1.windowsupdatea.com }
     - { name: '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo', type: vless, server: 146.56.145.181, port: 443, uuid: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: glc-kr1.windowsupdatea.com }
@@ -49,9 +49,9 @@ proxies:
     - { name: '法国 | 解锁流媒体', type: vless, server: 77.75.199.33, port: 443, uuid: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, tls: true, skip-cert-verify: false, flow: '', client-fingerprint: chrome, servername: fr1.glccf.top, network: ws, ws-opts: { path: /guolicheng/fr, headers: { Host: fr1.glccf.top } } }
     - { name: '印度 | 解锁流媒体', type: vless, server: 77.75.199.33, port: 443, uuid: 4b234bb5-c005-4755-bb36-8d2c3a029a95, udp: true, tls: true, skip-cert-verify: false, flow: '', client-fingerprint: chrome, servername: glc-in.glccf.top, network: ws, ws-opts: { path: /guolicheng/in, headers: { Host: glc-in.glccf.top } } }
 proxy-groups:
-    - { name: 🍊果粒橙🍊, type: select, proxies: [自动选择, 故障转移, '剩余流量：1020.47 GB', '距离下次重置剩余：8 天', 套餐到期：2025-09-16, '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo', 韩国-1号, 印度-1号, 新加坡, '美国圣何塞-1号 | 解锁流媒体', '美国洛杉矶-2号 | 解锁流媒体', '美国凤凰城-3号 | 解锁流媒体', 日本-1号, 日本-2号, 日本-3号, 日本-4号, '德国 | 解锁流媒体-vless', '法国 | 解锁流媒体-vless', '台湾Hinet | 解锁流媒体', '香港HKT | 解锁流媒体', '香港HKT2 | 解锁流媒体', '新加坡 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '德国 | 解锁流媒体', '法国 | 解锁流媒体', '印度 | 解锁流媒体'] }
-    - { name: 自动选择, type: url-test, proxies: ['剩余流量：1020.47 GB', '距离下次重置剩余：8 天', 套餐到期：2025-09-16, '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo', 韩国-1号, 印度-1号, 新加坡, '美国圣何塞-1号 | 解锁流媒体', '美国洛杉矶-2号 | 解锁流媒体', '美国凤凰城-3号 | 解锁流媒体', 日本-1号, 日本-2号, 日本-3号, 日本-4号, '德国 | 解锁流媒体-vless', '法国 | 解锁流媒体-vless', '台湾Hinet | 解锁流媒体', '香港HKT | 解锁流媒体', '香港HKT2 | 解锁流媒体', '新加坡 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '德国 | 解锁流媒体', '法国 | 解锁流媒体', '印度 | 解锁流媒体'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['剩余流量：1020.47 GB', '距离下次重置剩余：8 天', 套餐到期：2025-09-16, '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo', 韩国-1号, 印度-1号, 新加坡, '美国圣何塞-1号 | 解锁流媒体', '美国洛杉矶-2号 | 解锁流媒体', '美国凤凰城-3号 | 解锁流媒体', 日本-1号, 日本-2号, 日本-3号, 日本-4号, '德国 | 解锁流媒体-vless', '法国 | 解锁流媒体-vless', '台湾Hinet | 解锁流媒体', '香港HKT | 解锁流媒体', '香港HKT2 | 解锁流媒体', '新加坡 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '德国 | 解锁流媒体', '法国 | 解锁流媒体', '印度 | 解锁流媒体'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 🍊果粒橙🍊, type: select, proxies: [自动选择, 故障转移, '剩余流量：1020.4 GB', '距离下次重置剩余：8 天', 套餐到期：2025-09-16, '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo', 韩国-1号, 印度-1号, 新加坡, '美国圣何塞-1号 | 解锁流媒体', '美国洛杉矶-2号 | 解锁流媒体', '美国凤凰城-3号 | 解锁流媒体', 日本-1号, 日本-2号, 日本-3号, 日本-4号, '德国 | 解锁流媒体-vless', '法国 | 解锁流媒体-vless', '台湾Hinet | 解锁流媒体', '香港HKT | 解锁流媒体', '香港HKT2 | 解锁流媒体', '新加坡 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '德国 | 解锁流媒体', '法国 | 解锁流媒体', '印度 | 解锁流媒体'] }
+    - { name: 自动选择, type: url-test, proxies: ['剩余流量：1020.4 GB', '距离下次重置剩余：8 天', 套餐到期：2025-09-16, '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo', 韩国-1号, 印度-1号, 新加坡, '美国圣何塞-1号 | 解锁流媒体', '美国洛杉矶-2号 | 解锁流媒体', '美国凤凰城-3号 | 解锁流媒体', 日本-1号, 日本-2号, 日本-3号, 日本-4号, '德国 | 解锁流媒体-vless', '法国 | 解锁流媒体-vless', '台湾Hinet | 解锁流媒体', '香港HKT | 解锁流媒体', '香港HKT2 | 解锁流媒体', '新加坡 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '德国 | 解锁流媒体', '法国 | 解锁流媒体', '印度 | 解锁流媒体'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['剩余流量：1020.4 GB', '距离下次重置剩余：8 天', 套餐到期：2025-09-16, '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo', 韩国-1号, 印度-1号, 新加坡, '美国圣何塞-1号 | 解锁流媒体', '美国洛杉矶-2号 | 解锁流媒体', '美国凤凰城-3号 | 解锁流媒体', 日本-1号, 日本-2号, 日本-3号, 日本-4号, '德国 | 解锁流媒体-vless', '法国 | 解锁流媒体-vless', '台湾Hinet | 解锁流媒体', '香港HKT | 解锁流媒体', '香港HKT2 | 解锁流媒体', '新加坡 | 解锁流媒体', '台湾Hinet-1号线路 | 解锁流媒体', '德国 | 解锁流媒体', '法国 | 解锁流媒体', '印度 | 解锁流媒体'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN-SUFFIX,codegear.com,REJECT'
     - 'DOMAIN-SUFFIX,themindelectric.com,REJECT'
@@ -66,12 +66,6 @@ rules:
     - 'DOMAIN-SUFFIX,youtubei.googleapis.com,REJECT'
     - 'DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT'
     - 'DOMAIN-SUFFIX,gvt2.com,REJECT'
-    - 'DOMAIN-SUFFIX,ip138.com,🚀 手动切换'
-    - 'DOMAIN-SUFFIX,cip.cc,🚀 手动切换'
-    - 'DOMAIN-SUFFIX,ip.cn,🚀 手动切换'
-    - 'DOMAIN-SUFFIX,lddgo.net,🚀 手动切换'
-    - 'DOMAIN-SUFFIX,chinaz.com,🚀 手动切换'
-    - 'DOMAIN-SUFFIX,ipinfo.io,🚀 手动切换'
     - 'DOMAIN,guolicheng.cfd,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,🍊果粒橙🍊'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🍊果粒橙🍊'
